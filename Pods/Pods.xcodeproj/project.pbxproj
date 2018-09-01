@@ -1,0 +1,1789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AEEE09B2A6CB97BD761C22CC068699 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42C21FA8275FF4066438EF2D7C3D44 /* SequenceExtensions.swift */; };
+		01388C0C063D86A5C5033EF62CD8F656 /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5C6D4E447954E51E96EECDC3D39D5 /* FloatingPointExtensions.swift */; };
+		023A060576EB5FF0DE035E0BF9733508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0346780644106B33ACDB775E544E2C7F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F03F55946EB395065974E549D980A /* ArrayExtensions.swift */; };
+		034E8B2C1E51697516D2C52154A0F945 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71EBFEFAB32C6560DB5943CF47AD735 /* RAMBounceAnimation.swift */; };
+		03872077101F1C24BA87A64431586E54 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5C24D26B29A1D4A4B5155614468676 /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		0557A35F7D88DF1607482334ABC5F9E8 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B4FA1CA7E277ED086C44753A93587 /* UIViewExtensions.swift */; };
+		07548AA6527BB0B064451CDCC1A4B510 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7271CC3E4751E6B09F327B36904BC5A8 /* RAMFrameItemAnimation.swift */; };
+		0AA48783D2791A5F38C0C935A7C1A788 /* Pods-iAmARUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 772E2CE2E0CAC90AC946F39A183DBE3C /* Pods-iAmARUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DDBE415F56248DB9E225529F9145202 /* UIBarButtonItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E7A8A0EAA9B8C0E73562039445284 /* UIBarButtonItemExtensions.swift */; };
+		0E56D4A87038A1962F3BD90A8A97F0CB /* Pods-iAmARTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 748F8465E4C9E96EEE5643F7FC7A35A3 /* Pods-iAmARTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D2FAFEA3087DB6869159428BEAD2D4 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACB8DC2A912C8ABBAC7DE2B32FA0807 /* UIAlertControllerExtensions.swift */; };
+		1442082794ED17D41C9A3EE7C630069E /* UINavigationItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6E48FBBB7D92D840E73F75BE07BF20 /* UINavigationItemExtensions.swift */; };
+		14C2768C85C0209CD82106DD65849F97 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E59D9112B968CC9B0D8E78F2EABFAF1 /* NSAttributedStringExtensions.swift */; };
+		16317E1CDD335FAE8255EC813653D388 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6244EDD4DFC6258A4D5F0DC4994AB /* StringExtensions.swift */; };
+		18ACF2383E3706052D07EDC9390634F5 /* SwiftStdlibDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAACEA3D6B017D538E2BD079525081C /* SwiftStdlibDeprecated.swift */; };
+		1D912C9D6D67A03463FE8C7BC0C1F677 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A374B28C21A71AFCA6924CF33F0174 /* UIFontExtensions.swift */; };
+		22471C62FC4A0B998D37F7102356326E /* UIKitDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9364A1FBED3707435AFAA5B22850981 /* UIKitDeprecated.swift */; };
+		2544F661A317AAF37F8CD1B1BEC24A42 /* UITabBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAFEB267E58AC9A2515DEFAD61A3CE /* UITabBarExtensions.swift */; };
+		2564BCAE909382F95DBC41BCBD1390C4 /* MKPolylineExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D25B8CF48694520286CC05B9C2773A /* MKPolylineExtensions.swift */; };
+		26E06BF2B7BBCF6D5ABD3A64AFE53C7B /* StringProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E875C1B586FC2D6D63F5A10F035B21E /* StringProtocolExtensions.swift */; };
+		2860E5D5033E09E0E8C812028964A813 /* TimelineTableViewCell.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 098D44E244EB8CF4B898D44103577299 /* TimelineTableViewCell.bundle */; };
+		291A119B87B693E6552BC47617C9594B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2BCCBD33161499D67F259756E021CF58 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AB5359CCAFB70E8B2876DD154B02EE /* RAMBadge.swift */; };
+		2D592ABA84ADC693C3883697D5A8308A /* Pods-iAmAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C6B78340B7A3ED30CCA7DAF3634B3 /* Pods-iAmAR-dummy.m */; };
+		2D63E9FCC7C4C6D9928336E7887439A9 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA95BAD63AC76826BBBC70A4BB5166 /* UIImageViewExtensions.swift */; };
+		2DA0ACD323E323B732901C28E901BB84 /* TimelineTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3C080FB0B6E182B9828CFFC43C96DE /* TimelineTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4BED55E099EFCABCA823CD3B9B7B36 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01D27EA42FB596246371F70DD02075C /* FileManagerExtensions.swift */; };
+		32CDC5F756E33403AC23AA5AB59E5460 /* SignedIntegerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B208A8F448A8CFB3E38C80FB1ADFF16 /* SignedIntegerExtensions.swift */; };
+		3604EDA233291BE4E993EB07EC6A0F1E /* Pods-iAmAR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9BE434CC97D509D2AFFCA00CAE8253 /* Pods-iAmAR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A4596AE2D170F0DD4967F3E6683D333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3BB51458E07E0E9F2B5021250AFF58E1 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F9C734408680A6F3C7BA0203BA937 /* DateExtensions.swift */; };
+		3D2D85EB6D67B13A60F84CE1F941EC6A /* CharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BC0C893E7F49A6DDD7D9809378600F /* CharacterExtensions.swift */; };
+		3EDE9CBEBF2D4A4ABB9F6D89724D2747 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E4558AEB93C12FA99014A63183B6B /* Timeline.swift */; };
+		42A256CE08673046A38BD1CE50FCF60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		42F9C3C09A0D0CC46C1821ECA5DC5E07 /* UIStackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DB632380970A7BF94163B2ECD1F90C /* UIStackViewExtensions.swift */; };
+		43E9AC4DADE2F1A5F94F847F54085452 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32A4D4FE940AAFAEB2BC5722F69A78 /* CollectionExtensions.swift */; };
+		452D8709EFDFC19EDA5A3A36A7614840 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6C28BE890493FF63AC1922BB06A3A9 /* DoubleExtensions.swift */; };
+		457F06EE912D20836BBBD46871F91613 /* SignedNumericExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A133244B8F05D8B517DB449DDD5E4A02 /* SignedNumericExtensions.swift */; };
+		4BDFCD9BB4C9E7DBB57F58CDCEF1EE4C /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8B2DADE449791BB35EB593BA932A7 /* URLExtensions.swift */; };
+		4CDB9E69D462591B0E1EB353412FA698 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E1BEA66B932004BB3541C0F7C3EF0C /* TimelineTableViewCell.swift */; };
+		4FA9FA4A720575C0BF086079856092A5 /* TimelineTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E53C165ABAE459D3E6FED2B33BAB7D10 /* TimelineTableViewCell-dummy.m */; };
+		50761BDE277944F2D2CB04EB12F686C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		53ACF6AEFDC30EDF1616C41CFC8D05DD /* SwifterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809FF0B584D86D6AA4090B6FD46E71D4 /* SwifterSwift.swift */; };
+		57908BFD6D93743E823708B2E711808C /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E371E31951553F7B7B818FC46A79C3 /* UITextViewExtensions.swift */; };
+		5C3A88A8BBF9C7E1018759AB0325422F /* UIWindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62450D4184052111384DB08265159CA7 /* UIWindowExtensions.swift */; };
+		5D725A56E125FA97C2241C6553E42182 /* CGSizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E337AF0D6613E96022BE69D4626888 /* CGSizeExtensions.swift */; };
+		61E6138ACD39196436F2F89E19D54F11 /* SwifterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E7EE9AB06209AF35C1D4F4F15BFC5 /* SwifterSwift-dummy.m */; };
+		6385BA84AF8B0DB2E93014169880EC15 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFD76BFE87961EE82F71715F9431B8A /* CGFloatExtensions.swift */; };
+		6FB72917A660DC819FA6E491E674D4F8 /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33E9FE1B4C6433984B7672195F320F7 /* CGPointExtensions.swift */; };
+		7105A4B8B091A2546C551A6A82243E64 /* NSPredicateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3811B464816328FEDF5821D092BBECC /* NSPredicateExtensions.swift */; };
+		73D4B61380CF1FF6AEDFF0EB6A769E45 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5AADD914F7FA67EB3A9DAB22B3F78 /* UINavigationControllerExtensions.swift */; };
+		75CE56BF14ACB62BCD5BA44BD2CA1CED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		77C5DABF1EA963E366D1E176E1807514 /* UIGestureRecognizerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74CC6FF96E8EC7A107C1073FA19153 /* UIGestureRecognizerExtensions.swift */; };
+		77CCEF064C503A63C6A7D2096D010187 /* UIEdgeInsetsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD963E6D007CD550FE3F6EF12C2399 /* UIEdgeInsetsExtensions.swift */; };
+		7AC63674104CADBB0C1A4D97BECC3761 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5149ABC89048BFAF9A938813ABE6C301 /* UITableViewExtensions.swift */; };
+		7AD519CF2E2729C05C3594F60F261789 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAE898D89FE4CC09AAA2E29BC435E84 /* TimelineTableViewCell.xib */; };
+		7B0B6629B0B98CAA8FB43DD91DD67345 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5219F669667D8538CA7A2CE2B881AB /* UILabelExtensions.swift */; };
+		7B8C5E3453BCC98987B3730FA9E4B145 /* CGColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A114A6C223773E96117AE1CB9D671 /* CGColorExtensions.swift */; };
+		7CC9C7FBD2D079584C066B07D0F1CFB2 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F85FAFB0E37FB937529DF5B68B137 /* RAMTransitionItemAnimations.swift */; };
+		7CCAC8F27EB72C4D5B8A7AC2C307E303 /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6DAEDF125386D6D7B0E02484E1D189 /* UserDefaultsExtensions.swift */; };
+		824ADE47B556DF080CB28EE67DA0BFF9 /* NSImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885112E51407110854EA87E09D261D60 /* NSImageExtensions.swift */; };
+		882ED16BE2F83DD5388F960CF6E9B3D0 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C26EE171E318667235AA576F986EA9 /* UICollectionViewExtensions.swift */; };
+		8B83987B2E9CB79D168688D37B03FE80 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB91DDFED2AB926A4978A67A452624D3 /* BoolExtensions.swift */; };
+		8DA20E61B07470BC340FB58B738722DF /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D2E46D7C5CA200D2F6162D9E74C02E /* RAMFumeAnimation.swift */; };
+		930E24232401C7BE59D3AC684009496D /* SKNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDBF3F4AB64B9AAF0EC64788CFDB0A /* SKNodeExtensions.swift */; };
+		96D47871FB9C5DB80EDE420F425108A7 /* SwifterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8A28343DB27EC848550552E91DE67A /* SwifterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB45854CE0D4DFD13CBFEC31F440799 /* UINavigationBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7020DAEDBB0D40BCBAF3AB58A8D42D47 /* UINavigationBarExtensions.swift */; };
+		9E9CD6640921C969953D66D734F8D34E /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD02583EFB175D0BD837C62A30EEA26 /* RAMAnimatedTabBarController.swift */; };
+		A03325A787D3FC20D2F7219245D8D8BF /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595B90DF557852D9A13A802C887970A1 /* UIViewControllerExtensions.swift */; };
+		A43DC3F38CACAFA267F6F7B16EA988CE /* UIDatePickerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DDF919178C51A79085B8474DA05ABB /* UIDatePickerExtensions.swift */; };
+		A5101485B317541571E1D4E3455D38C5 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8573DEF4EF8B2D60AF6577B4E9F6391 /* UIImageExtensions.swift */; };
+		A531FC3A1170821004F490A2C8CDB72F /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20824B4D42EBAF070304864C621A2E9 /* DictionaryExtensions.swift */; };
+		A5A4C964961C70115C31ADA36FA1643B /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D474CD0C03C2B016527E0D42937C8EF /* RAMRotationAnimation.swift */; };
+		A5E19DD9CDED64D598685D7BF9E2BB33 /* FloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C279A92F771B6ADD74FFF6521B855 /* FloatExtensions.swift */; };
+		AC3883E937AF2F1887EB46BC56D5D112 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B22063446A6E96F08954F4A9E1C0F9 /* ColorExtensions.swift */; };
+		AFFD398758DEA7BF1DA96EB832DDBEA8 /* UISegmentedControlExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274261DCB9667BF5EE33A6E302518010 /* UISegmentedControlExtensions.swift */; };
+		B2C639ADBCA3B7B32F3036876EFC8F55 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91E2BD47B74AD08F8E76DA8D800F473 /* DataExtensions.swift */; };
+		B87E1E49EF7E611AFA44209FE8B416BB /* URLRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9925E5166DB55AED3D1CF652CD2F69 /* URLRequestExtensions.swift */; };
+		BA5268E507A5DFB4F69550E12CD97733 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9B7BEFF9426626AF5B9431225C255A /* RAMAnimatedTabBarController-dummy.m */; };
+		BF7B91012A834D9E82E3AA97682BBACD /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F8E29DDFAAFCFF6C02F937362E4C1 /* UIButtonExtensions.swift */; };
+		C21D8FD45C4D4DBA510FBFE09F14C95C /* FoundationDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913AA52C99E923DF11C395B1154E4692 /* FoundationDeprecated.swift */; };
+		C247D561F8B0A6175FB606F1EA3370B2 /* CalendarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D53621F90EBB0D18652153703610E2 /* CalendarExtensions.swift */; };
+		C2DC528DEA10CCCDBC6F9BD1402D224C /* LocaleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9A7CDB03CDC95BA605100C8A9BFBC8 /* LocaleExtensions.swift */; };
+		CE5853D2EA4E90AB663F500877323C51 /* UIScrollViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E0535922F3C860DA1EC1F3D410D88D /* UIScrollViewExtensions.swift */; };
+		CF6657B54C06B2BAAF8422881DA91BBA /* UISwitchExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4769B9815E440C47746238C496BA6C25 /* UISwitchExtensions.swift */; };
+		D267F23FD50406447424F0FBF075554F /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5006B222D5B7083F00B1F2E49ED502CD /* UITextFieldExtensions.swift */; };
+		D75EB3EAB3091ED2861DE409E1D0E59E /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54408CD72032E2E6CFF3C86AE9005332 /* IntExtensions.swift */; };
+		D9BC051AC5DE6B4816FB3D3D0CFDA396 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A836663367DAF336BF7ED108303894E /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73A13AAB0A766435D7BB9C5C2E9C67F /* NSViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5645DCDF3CBCC207475F0434DB477523 /* NSViewExtensions.swift */; };
+		E78E8389FCA17085E5BA51DAE45D4883 /* ComparableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECE56EE42544F0CE1089C81A1FB60AA /* ComparableExtensions.swift */; };
+		EA705E91893A995B35DC2E0A24C96071 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A829D97C43E4061D1E021CAA1D4EC /* RAMItemAnimationProtocol.swift */; };
+		EC7CB25351596CAF05DF66DB3FAC18BB /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945F7AF8BBC0324404698005189B6B4 /* OptionalExtensions.swift */; };
+		EFCC935A17B1077D6A7144534D7A3E65 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E3E939AEF4B6DB07E0FA244E49517 /* CLLocationExtensions.swift */; };
+		F824AD9D493A226DC547CBF36889DA8D /* Pods-iAmARTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B0FA86E8AD607AFEDD80C7CBC7ED64 /* Pods-iAmARTests-dummy.m */; };
+		F8790CA71A57D63045A27CDB2053EC95 /* TimelinePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880167705C213655384D316BBC3FF75 /* TimelinePoint.swift */; };
+		F9ABA834F60257CB9CAE9D3A2E7C5790 /* Pods-iAmARUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4B1274E3BA51199FD1A099B41EEDC8 /* Pods-iAmARUITests-dummy.m */; };
+		FA5065B8EB571B1E0CB10E17755BB3BF /* UISearchBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DF543543B24459D67D34213CECC639 /* UISearchBarExtensions.swift */; };
+		FBAE2E45D81E6D547385478433541394 /* UIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291AC593A8B094F634C6539996DD0917 /* UIStoryboardExtensions.swift */; };
+		FE6A0A4D9C81E5D2EF0960298E8420BE /* UISliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DE7A49583D1E2D1801F464212FC718 /* UISliderExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3830E952EA7F2ABADB4C81643226EA35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7B911479FF744FC2D444CEAD701A1EA;
+			remoteInfo = "TimelineTableViewCell-TimelineTableViewCell";
+		};
+		4DC514EC37DC68B2A7963D9C7B01AB91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40044483D4711CBD20A4398D8930666;
+			remoteInfo = "Pods-iAmAR";
+		};
+		57EDFE4311A2F65A253FEDB8E19997AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7090C0A8373041A8789A465DC4043467;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
+		7603CC325A091C7D98444031634D6050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0B140958763C118DD03CCA97B61C9AD;
+			remoteInfo = SwifterSwift;
+		};
+		D632C37865770FB5CE6E39E10AB34953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40044483D4711CBD20A4398D8930666;
+			remoteInfo = "Pods-iAmAR";
+		};
+		E869A89F4CC2B40DC8712880325B2324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE077BECB5B51509CBB3EE6C9BFEB381;
+			remoteInfo = TimelineTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BC0C893E7F49A6DDD7D9809378600F /* CharacterExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExtensions.swift; path = Sources/Extensions/SwiftStdlib/CharacterExtensions.swift; sourceTree = "<group>"; };
+		08DB632380970A7BF94163B2ECD1F90C /* UIStackViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStackViewExtensions.swift; path = Sources/Extensions/UIKit/UIStackViewExtensions.swift; sourceTree = "<group>"; };
+		098D44E244EB8CF4B898D44103577299 /* TimelineTableViewCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TimelineTableViewCell.bundle; path = "TimelineTableViewCell-TimelineTableViewCell.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5219F669667D8538CA7A2CE2B881AB /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = Sources/Extensions/UIKit/UILabelExtensions.swift; sourceTree = "<group>"; };
+		14E337AF0D6613E96022BE69D4626888 /* CGSizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSizeExtensions.swift; path = Sources/Extensions/CoreGraphics/CGSizeExtensions.swift; sourceTree = "<group>"; };
+		15AA653750FD63A4C3C24D032F59F85B /* Pods-iAmAR-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAmAR-resources.sh"; sourceTree = "<group>"; };
+		1D74CC6FF96E8EC7A107C1073FA19153 /* UIGestureRecognizerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIGestureRecognizerExtensions.swift; path = Sources/Extensions/UIKit/UIGestureRecognizerExtensions.swift; sourceTree = "<group>"; };
+		1DBC317B2F64BEAE458C7785A769967D /* Pods-iAmARUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAmARUITests-resources.sh"; sourceTree = "<group>"; };
+		1E59D9112B968CC9B0D8E78F2EABFAF1 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringExtensions.swift; path = Sources/Extensions/Foundation/NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		1FA887B6D7C5F2989CC65F2F28EB954E /* SwifterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwifterSwift.modulemap; sourceTree = "<group>"; };
+		21AB5359CCAFB70E8B2876DD154B02EE /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		229CDC174B8D71233C022AB191DD9038 /* Pods-iAmARTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iAmARTests.modulemap"; sourceTree = "<group>"; };
+		22B195512E161C49A0E78F310E7AAB3B /* Pods-iAmARTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iAmARTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22E371E31951553F7B7B818FC46A79C3 /* UITextViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewExtensions.swift; path = Sources/Extensions/UIKit/UITextViewExtensions.swift; sourceTree = "<group>"; };
+		230EB2EB1A0AFA5ED02D48E42483CD62 /* Pods_iAmARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iAmARUITests.framework; path = "Pods-iAmARUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273BFFE9C478D419D0128868F4F407AA /* Pods-iAmARUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iAmARUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		274261DCB9667BF5EE33A6E302518010 /* UISegmentedControlExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISegmentedControlExtensions.swift; path = Sources/Extensions/UIKit/UISegmentedControlExtensions.swift; sourceTree = "<group>"; };
+		291AC593A8B094F634C6539996DD0917 /* UIStoryboardExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStoryboardExtensions.swift; path = Sources/Extensions/UIKit/UIStoryboardExtensions.swift; sourceTree = "<group>"; };
+		292E3F866CDA440E7625F2A78AEB5FFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A836663367DAF336BF7ED108303894E /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		2BAACEA3D6B017D538E2BD079525081C /* SwiftStdlibDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftStdlibDeprecated.swift; path = Sources/Extensions/SwiftStdlib/Deprecated/SwiftStdlibDeprecated.swift; sourceTree = "<group>"; };
+		2D9A7CDB03CDC95BA605100C8A9BFBC8 /* LocaleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocaleExtensions.swift; path = Sources/Extensions/Foundation/LocaleExtensions.swift; sourceTree = "<group>"; };
+		2E4B8883E12D8560AE31F6B7B27013AF /* Pods_iAmARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iAmARTests.framework; path = "Pods-iAmARTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E875C1B586FC2D6D63F5A10F035B21E /* StringProtocolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringProtocolExtensions.swift; path = Sources/Extensions/SwiftStdlib/StringProtocolExtensions.swift; sourceTree = "<group>"; };
+		334A114A6C223773E96117AE1CB9D671 /* CGColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGColorExtensions.swift; path = Sources/Extensions/CoreGraphics/CGColorExtensions.swift; sourceTree = "<group>"; };
+		347F8E29DDFAAFCFF6C02F937362E4C1 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = Sources/Extensions/UIKit/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		35F5C6D4E447954E51E96EECDC3D39D5 /* FloatingPointExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPointExtensions.swift; path = Sources/Extensions/SwiftStdlib/FloatingPointExtensions.swift; sourceTree = "<group>"; };
+		3E1C0BB98390416D58FE4A42EE7C4DC0 /* Pods-iAmARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAmARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		402EDF500C9B42467F9A780FB7E4F5B9 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
+		40607E51EF73799463FBDD13344207E9 /* Pods-iAmARTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iAmARTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40AD963E6D007CD550FE3F6EF12C2399 /* UIEdgeInsetsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsetsExtensions.swift; path = Sources/Extensions/UIKit/UIEdgeInsetsExtensions.swift; sourceTree = "<group>"; };
+		42E0535922F3C860DA1EC1F3D410D88D /* UIScrollViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewExtensions.swift; path = Sources/Extensions/UIKit/UIScrollViewExtensions.swift; sourceTree = "<group>"; };
+		4769B9815E440C47746238C496BA6C25 /* UISwitchExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitchExtensions.swift; path = Sources/Extensions/UIKit/UISwitchExtensions.swift; sourceTree = "<group>"; };
+		48B22063446A6E96F08954F4A9E1C0F9 /* ColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtensions.swift; path = Sources/Extensions/Shared/ColorExtensions.swift; sourceTree = "<group>"; };
+		4BB9ECBA85E61941DF078A7045C9FCB9 /* Pods-iAmAR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iAmAR.modulemap"; sourceTree = "<group>"; };
+		4CEF2DFC0559FB5885DFEE4E59B905CA /* TimelineTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimelineTableViewCell.framework; path = TimelineTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1F85FAFB0E37FB937529DF5B68B137 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		4D9BE434CC97D509D2AFFCA00CAE8253 /* Pods-iAmAR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iAmAR-umbrella.h"; sourceTree = "<group>"; };
+		4E843666BFEC9F2630CCFE8A4FC956D6 /* Pods-iAmARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAmARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5006B222D5B7083F00B1F2E49ED502CD /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldExtensions.swift; path = Sources/Extensions/UIKit/UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		5149ABC89048BFAF9A938813ABE6C301 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtensions.swift; path = Sources/Extensions/UIKit/UITableViewExtensions.swift; sourceTree = "<group>"; };
+		5236577874F934C3B70E33DC761C6A71 /* Pods-iAmARUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iAmARUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		533C51F20DC413E097E5EC9B8EDD0968 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		54408CD72032E2E6CFF3C86AE9005332 /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Sources/Extensions/SwiftStdlib/IntExtensions.swift; sourceTree = "<group>"; };
+		54EDBF3F4AB64B9AAF0EC64788CFDB0A /* SKNodeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKNodeExtensions.swift; path = Sources/Extensions/SpriteKit/SKNodeExtensions.swift; sourceTree = "<group>"; };
+		5645DCDF3CBCC207475F0434DB477523 /* NSViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSViewExtensions.swift; path = Sources/Extensions/AppKit/NSViewExtensions.swift; sourceTree = "<group>"; };
+		56F4ED869B15A84E4F4DF2737C9038E7 /* Pods-iAmARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAmARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		595B90DF557852D9A13A802C887970A1 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Sources/Extensions/UIKit/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5AAFCABCA34000E2125AE80A3DEB240A /* Pods-iAmAR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAmAR-frameworks.sh"; sourceTree = "<group>"; };
+		5B208A8F448A8CFB3E38C80FB1ADFF16 /* SignedIntegerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignedIntegerExtensions.swift; path = Sources/Extensions/SwiftStdlib/SignedIntegerExtensions.swift; sourceTree = "<group>"; };
+		5E31784F9B092B8E67F4723F8E89F98C /* TimelineTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimelineTableViewCell.modulemap; sourceTree = "<group>"; };
+		5FF1232E426E90C509A516455671B723 /* Pods-iAmAR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iAmAR-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62450D4184052111384DB08265159CA7 /* UIWindowExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIWindowExtensions.swift; path = Sources/Extensions/UIKit/UIWindowExtensions.swift; sourceTree = "<group>"; };
+		64DF543543B24459D67D34213CECC639 /* UISearchBarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISearchBarExtensions.swift; path = Sources/Extensions/UIKit/UISearchBarExtensions.swift; sourceTree = "<group>"; };
+		692E4558AEB93C12FA99014A63183B6B /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = TimelineTableViewCell/Timeline.swift; sourceTree = "<group>"; };
+		6A4B1274E3BA51199FD1A099B41EEDC8 /* Pods-iAmARUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iAmARUITests-dummy.m"; sourceTree = "<group>"; };
+		6A9925E5166DB55AED3D1CF652CD2F69 /* URLRequestExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestExtensions.swift; path = Sources/Extensions/Foundation/URLRequestExtensions.swift; sourceTree = "<group>"; };
+		6B8A28343DB27EC848550552E91DE67A /* SwifterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwifterSwift-umbrella.h"; sourceTree = "<group>"; };
+		7020DAEDBB0D40BCBAF3AB58A8D42D47 /* UINavigationBarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationBarExtensions.swift; path = Sources/Extensions/UIKit/UINavigationBarExtensions.swift; sourceTree = "<group>"; };
+		71033D8435C01B8C68E5E9944DAC479F /* Pods-iAmARUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAmARUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7271CC3E4751E6B09F327B36904BC5A8 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		748F8465E4C9E96EEE5643F7FC7A35A3 /* Pods-iAmARTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iAmARTests-umbrella.h"; sourceTree = "<group>"; };
+		772E2CE2E0CAC90AC946F39A183DBE3C /* Pods-iAmARUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iAmARUITests-umbrella.h"; sourceTree = "<group>"; };
+		78D53621F90EBB0D18652153703610E2 /* CalendarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarExtensions.swift; path = Sources/Extensions/Foundation/CalendarExtensions.swift; sourceTree = "<group>"; };
+		7D474CD0C03C2B016527E0D42937C8EF /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		7E32A4D4FE940AAFAEB2BC5722F69A78 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = Sources/Extensions/SwiftStdlib/CollectionExtensions.swift; sourceTree = "<group>"; };
+		7EB5EE58FDDF2CB4ED8216F13BC23A3E /* Pods-iAmAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAmAR.release.xcconfig"; sourceTree = "<group>"; };
+		809FF0B584D86D6AA4090B6FD46E71D4 /* SwifterSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwifterSwift.swift; path = Sources/Extensions/SwifterSwift.swift; sourceTree = "<group>"; };
+		81456B0305A040263AA8A4D8B9953B80 /* SwifterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwifterSwift.framework; path = SwifterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B0FA86E8AD607AFEDD80C7CBC7ED64 /* Pods-iAmARTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iAmARTests-dummy.m"; sourceTree = "<group>"; };
+		885112E51407110854EA87E09D261D60 /* NSImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSImageExtensions.swift; path = Sources/Extensions/AppKit/NSImageExtensions.swift; sourceTree = "<group>"; };
+		88D2E46D7C5CA200D2F6162D9E74C02E /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		8D3433115231B03742E2050C336AE1BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913AA52C99E923DF11C395B1154E4692 /* FoundationDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationDeprecated.swift; path = Sources/Extensions/Foundation/Deprecated/FoundationDeprecated.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941C6B78340B7A3ED30CCA7DAF3634B3 /* Pods-iAmAR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iAmAR-dummy.m"; sourceTree = "<group>"; };
+		95D735D0CDADCE29F9BD2B3CDB8475F4 /* SwifterSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwifterSwift.xcconfig; sourceTree = "<group>"; };
+		9766065DA30C7DA9EACCF929C93652E5 /* Pods-iAmARTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAmARTests-resources.sh"; sourceTree = "<group>"; };
+		9A6E48FBBB7D92D840E73F75BE07BF20 /* UINavigationItemExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationItemExtensions.swift; path = Sources/Extensions/UIKit/UINavigationItemExtensions.swift; sourceTree = "<group>"; };
+		9AC7796BCE710320198BFA2CD012D446 /* Pods-iAmARUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iAmARUITests.modulemap"; sourceTree = "<group>"; };
+		9CFD76BFE87961EE82F71715F9431B8A /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Sources/Extensions/CoreGraphics/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		9D774314D78D783A1592B19994CBC662 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECE56EE42544F0CE1089C81A1FB60AA /* ComparableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComparableExtensions.swift; path = Sources/Extensions/SwiftStdlib/ComparableExtensions.swift; sourceTree = "<group>"; };
+		A0E8B2DADE449791BB35EB593BA932A7 /* URLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtensions.swift; path = Sources/Extensions/Foundation/URLExtensions.swift; sourceTree = "<group>"; };
+		A133244B8F05D8B517DB449DDD5E4A02 /* SignedNumericExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignedNumericExtensions.swift; path = Sources/Extensions/SwiftStdlib/SignedNumericExtensions.swift; sourceTree = "<group>"; };
+		A1A374B28C21A71AFCA6924CF33F0174 /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = Sources/Extensions/UIKit/UIFontExtensions.swift; sourceTree = "<group>"; };
+		A33E9FE1B4C6433984B7672195F320F7 /* CGPointExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtensions.swift; path = Sources/Extensions/CoreGraphics/CGPointExtensions.swift; sourceTree = "<group>"; };
+		A4DD5E021DE00A8B1F12F5CBA7EC99FF /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		A77A829D97C43E4061D1E021CAA1D4EC /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		A7C6244EDD4DFC6258A4D5F0DC4994AB /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/Extensions/SwiftStdlib/StringExtensions.swift; sourceTree = "<group>"; };
+		A8C26EE171E318667235AA576F986EA9 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UICollectionViewExtensions.swift; path = Sources/Extensions/UIKit/UICollectionViewExtensions.swift; sourceTree = "<group>"; };
+		A98E7EE9AB06209AF35C1D4F4F15BFC5 /* SwifterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwifterSwift-dummy.m"; sourceTree = "<group>"; };
+		ABAE898D89FE4CC09AAA2E29BC435E84 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TimelineTableViewCell.xib; path = TimelineTableViewCell/TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		ABB5AADD914F7FA67EB3A9DAB22B3F78 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtensions.swift; path = Sources/Extensions/UIKit/UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
+		AD7F03F55946EB395065974E549D980A /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Sources/Extensions/SwiftStdlib/ArrayExtensions.swift; sourceTree = "<group>"; };
+		AF6C28BE890493FF63AC1922BB06A3A9 /* DoubleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleExtensions.swift; path = Sources/Extensions/SwiftStdlib/DoubleExtensions.swift; sourceTree = "<group>"; };
+		B04175917D2052A4DEB7FA265F65AF70 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D25B8CF48694520286CC05B9C2773A /* MKPolylineExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKPolylineExtensions.swift; path = Sources/Extensions/MapKit/MKPolylineExtensions.swift; sourceTree = "<group>"; };
+		B21E57E144E76874DA0F6AA3F7290636 /* Pods-iAmAR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iAmAR-acknowledgements.plist"; sourceTree = "<group>"; };
+		B344B673C56C0A76962E4A57D8249FFE /* Pods-iAmAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAmAR.debug.xcconfig"; sourceTree = "<group>"; };
+		B43B4FA1CA7E277ED086C44753A93587 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Sources/Extensions/UIKit/UIViewExtensions.swift; sourceTree = "<group>"; };
+		B66C279A92F771B6ADD74FFF6521B855 /* FloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatExtensions.swift; path = Sources/Extensions/SwiftStdlib/FloatExtensions.swift; sourceTree = "<group>"; };
+		B7DE7A49583D1E2D1801F464212FC718 /* UISliderExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISliderExtensions.swift; path = Sources/Extensions/UIKit/UISliderExtensions.swift; sourceTree = "<group>"; };
+		B7F21350D68DFBE5108ECF12A7E299F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B87BD630F641C8EAF94DE39FF2F54557 /* Pods-iAmARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAmARTests.release.xcconfig"; sourceTree = "<group>"; };
+		B880167705C213655384D316BBC3FF75 /* TimelinePoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelinePoint.swift; path = TimelineTableViewCell/TimelinePoint.swift; sourceTree = "<group>"; };
+		B91E2BD47B74AD08F8E76DA8D800F473 /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = Sources/Extensions/Foundation/DataExtensions.swift; sourceTree = "<group>"; };
+		BACB8DC2A912C8ABBAC7DE2B32FA0807 /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertControllerExtensions.swift; path = Sources/Extensions/UIKit/UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
+		BBBBBCACA35E7F282AD1B0FAFD489B6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD02583EFB175D0BD837C62A30EEA26 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		BDC942A1F49EAD544FF97F2E41A53557 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6DAEDF125386D6D7B0E02484E1D189 /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsExtensions.swift; path = Sources/Extensions/Foundation/UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		BFA6254A92D9C59C76E10B9A4A94E537 /* TimelineTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimelineTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		C0D2D6BFF3D57317BCB9F3079F206CD0 /* Pods_iAmAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iAmAR.framework; path = "Pods-iAmAR.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DDF919178C51A79085B8474DA05ABB /* UIDatePickerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDatePickerExtensions.swift; path = Sources/Extensions/UIKit/UIDatePickerExtensions.swift; sourceTree = "<group>"; };
+		C10E7A8A0EAA9B8C0E73562039445284 /* UIBarButtonItemExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemExtensions.swift; path = Sources/Extensions/UIKit/UIBarButtonItemExtensions.swift; sourceTree = "<group>"; };
+		C3811B464816328FEDF5821D092BBECC /* NSPredicateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSPredicateExtensions.swift; path = Sources/Extensions/Foundation/NSPredicateExtensions.swift; sourceTree = "<group>"; };
+		CA3C080FB0B6E182B9828CFFC43C96DE /* TimelineTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimelineTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		CA4268265E59740A5E5EFD9B8CB493E1 /* Pods-iAmARTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAmARTests-frameworks.sh"; sourceTree = "<group>"; };
+		CA9B7BEFF9426626AF5B9431225C255A /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		CE42C21FA8275FF4066438EF2D7C3D44 /* SequenceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SequenceExtensions.swift; path = Sources/Extensions/SwiftStdlib/SequenceExtensions.swift; sourceTree = "<group>"; };
+		CFDA95BAD63AC76826BBBC70A4BB5166 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = Sources/Extensions/UIKit/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		D2DAFEB267E58AC9A2515DEFAD61A3CE /* UITabBarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITabBarExtensions.swift; path = Sources/Extensions/UIKit/UITabBarExtensions.swift; sourceTree = "<group>"; };
+		D6E1BEA66B932004BB3541C0F7C3EF0C /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineTableViewCell.swift; path = TimelineTableViewCell/TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		DCD8F3236C13B34A827B9A1CDD7022C4 /* TimelineTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimelineTableViewCell.xcconfig; sourceTree = "<group>"; };
+		DD2CE60289BF55E244F2F19EA0866C4C /* SwifterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwifterSwift-prefix.pch"; sourceTree = "<group>"; };
+		DE4F9C734408680A6F3C7BA0203BA937 /* DateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = Sources/Extensions/Foundation/DateExtensions.swift; sourceTree = "<group>"; };
+		E53C165ABAE459D3E6FED2B33BAB7D10 /* TimelineTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimelineTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		E9364A1FBED3707435AFAA5B22850981 /* UIKitDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIKitDeprecated.swift; path = Sources/Extensions/UIKit/Deprecated/UIKitDeprecated.swift; sourceTree = "<group>"; };
+		EB91DDFED2AB926A4978A67A452624D3 /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = Sources/Extensions/SwiftStdlib/BoolExtensions.swift; sourceTree = "<group>"; };
+		EC5C24D26B29A1D4A4B5155614468676 /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RAMAnimatedTabBarController+BottomLine.swift"; path = "RAMAnimatedTabBarController/RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
+		EE6E3E939AEF4B6DB07E0FA244E49517 /* CLLocationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLLocationExtensions.swift; path = Sources/Extensions/CoreLocation/CLLocationExtensions.swift; sourceTree = "<group>"; };
+		F01D27EA42FB596246371F70DD02075C /* FileManagerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileManagerExtensions.swift; path = Sources/Extensions/Foundation/FileManagerExtensions.swift; sourceTree = "<group>"; };
+		F1BE6E85A6FA1B2B33381B6BE9DCA7E5 /* ResourceBundle-TimelineTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TimelineTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		F20824B4D42EBAF070304864C621A2E9 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = Sources/Extensions/SwiftStdlib/DictionaryExtensions.swift; sourceTree = "<group>"; };
+		F71EBFEFAB32C6560DB5943CF47AD735 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		F8573DEF4EF8B2D60AF6577B4E9F6391 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/Extensions/UIKit/UIImageExtensions.swift; sourceTree = "<group>"; };
+		F945F7AF8BBC0324404698005189B6B4 /* OptionalExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionalExtensions.swift; path = Sources/Extensions/SwiftStdlib/OptionalExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		262E759E1B1B643AC5268512DC586F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50761BDE277944F2D2CB04EB12F686C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE3647313B549B69FD56C59E190BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				291A119B87B693E6552BC47617C9594B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C62B18C770A2CB9ADA4BBF8B187F394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023A060576EB5FF0DE035E0BF9733508 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		602A6400B671C49A3DF4B35C1F258A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A256CE08673046A38BD1CE50FCF60E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF89098341A5807A7F1BC21ABFC49997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4596AE2D170F0DD4967F3E6683D333 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C966CDD5F0DDA8F311C3010E263469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F192EBED66C71AABEA5C2118D353AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CE56BF14ACB62BCD5BA44BD2CA1CED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FBB62920F14EC442E9A1FC93307EF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F21350D68DFBE5108ECF12A7E299F2 /* Info.plist */,
+				533C51F20DC413E097E5EC9B8EDD0968 /* RAMAnimatedTabBarController.modulemap */,
+				402EDF500C9B42467F9A780FB7E4F5B9 /* RAMAnimatedTabBarController.xcconfig */,
+				CA9B7BEFF9426626AF5B9431225C255A /* RAMAnimatedTabBarController-dummy.m */,
+				A4DD5E021DE00A8B1F12F5CBA7EC99FF /* RAMAnimatedTabBarController-prefix.pch */,
+				2A836663367DAF336BF7ED108303894E /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		027326BC3CA16D5579599629D598EC3D /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppKit;
+			sourceTree = "<group>";
+		};
+		18A1B69467CBD56797B6C7A2C418E7A6 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				BCD02583EFB175D0BD837C62A30EEA26 /* RAMAnimatedTabBarController.swift */,
+				EC5C24D26B29A1D4A4B5155614468676 /* RAMAnimatedTabBarController+BottomLine.swift */,
+				21AB5359CCAFB70E8B2876DD154B02EE /* RAMBadge.swift */,
+				F71EBFEFAB32C6560DB5943CF47AD735 /* RAMBounceAnimation.swift */,
+				7271CC3E4751E6B09F327B36904BC5A8 /* RAMFrameItemAnimation.swift */,
+				88D2E46D7C5CA200D2F6162D9E74C02E /* RAMFumeAnimation.swift */,
+				A77A829D97C43E4061D1E021CAA1D4EC /* RAMItemAnimationProtocol.swift */,
+				7D474CD0C03C2B016527E0D42937C8EF /* RAMRotationAnimation.swift */,
+				4D1F85FAFB0E37FB937529DF5B68B137 /* RAMTransitionItemAnimations.swift */,
+				00FBB62920F14EC442E9A1FC93307EF6 /* Support Files */,
+			);
+			name = RAMAnimatedTabBarController;
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		31865BCD737AED2ABB8A4E8106019D7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBBBBCACA35E7F282AD1B0FAFD489B6E /* Info.plist */,
+				1FA887B6D7C5F2989CC65F2F28EB954E /* SwifterSwift.modulemap */,
+				95D735D0CDADCE29F9BD2B3CDB8475F4 /* SwifterSwift.xcconfig */,
+				A98E7EE9AB06209AF35C1D4F4F15BFC5 /* SwifterSwift-dummy.m */,
+				DD2CE60289BF55E244F2F19EA0866C4C /* SwifterSwift-prefix.pch */,
+				6B8A28343DB27EC848550552E91DE67A /* SwifterSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwifterSwift";
+			sourceTree = "<group>";
+		};
+		4230FC5DB16784CD176227949A6AF2E7 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SpriteKit;
+			sourceTree = "<group>";
+		};
+		448FC672C4E8BC50B9E3B76E98DFE736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D2D6BFF3D57317BCB9F3079F206CD0 /* Pods_iAmAR.framework */,
+				2E4B8883E12D8560AE31F6B7B27013AF /* Pods_iAmARTests.framework */,
+				230EB2EB1A0AFA5ED02D48E42483CD62 /* Pods_iAmARUITests.framework */,
+				B04175917D2052A4DEB7FA265F65AF70 /* RAMAnimatedTabBarController.framework */,
+				81456B0305A040263AA8A4D8B9953B80 /* SwifterSwift.framework */,
+				098D44E244EB8CF4B898D44103577299 /* TimelineTableViewCell.bundle */,
+				4CEF2DFC0559FB5885DFEE4E59B905CA /* TimelineTableViewCell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6573A5583DEB4275B82265E1B789DF57 /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreLocation;
+			sourceTree = "<group>";
+		};
+		663BB517395A8992C1FC9DB9E5DBCF4B /* Pods-iAmAR */ = {
+			isa = PBXGroup;
+			children = (
+				8D3433115231B03742E2050C336AE1BF /* Info.plist */,
+				4BB9ECBA85E61941DF078A7045C9FCB9 /* Pods-iAmAR.modulemap */,
+				5FF1232E426E90C509A516455671B723 /* Pods-iAmAR-acknowledgements.markdown */,
+				B21E57E144E76874DA0F6AA3F7290636 /* Pods-iAmAR-acknowledgements.plist */,
+				941C6B78340B7A3ED30CCA7DAF3634B3 /* Pods-iAmAR-dummy.m */,
+				5AAFCABCA34000E2125AE80A3DEB240A /* Pods-iAmAR-frameworks.sh */,
+				15AA653750FD63A4C3C24D032F59F85B /* Pods-iAmAR-resources.sh */,
+				4D9BE434CC97D509D2AFFCA00CAE8253 /* Pods-iAmAR-umbrella.h */,
+				B344B673C56C0A76962E4A57D8249FFE /* Pods-iAmAR.debug.xcconfig */,
+				7EB5EE58FDDF2CB4ED8216F13BC23A3E /* Pods-iAmAR.release.xcconfig */,
+			);
+			name = "Pods-iAmAR";
+			path = "Target Support Files/Pods-iAmAR";
+			sourceTree = "<group>";
+		};
+		66BA20057B4907BA4FDD554589E08602 /* Pods-iAmARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDC942A1F49EAD544FF97F2E41A53557 /* Info.plist */,
+				9AC7796BCE710320198BFA2CD012D446 /* Pods-iAmARUITests.modulemap */,
+				5236577874F934C3B70E33DC761C6A71 /* Pods-iAmARUITests-acknowledgements.markdown */,
+				273BFFE9C478D419D0128868F4F407AA /* Pods-iAmARUITests-acknowledgements.plist */,
+				6A4B1274E3BA51199FD1A099B41EEDC8 /* Pods-iAmARUITests-dummy.m */,
+				71033D8435C01B8C68E5E9944DAC479F /* Pods-iAmARUITests-frameworks.sh */,
+				1DBC317B2F64BEAE458C7785A769967D /* Pods-iAmARUITests-resources.sh */,
+				772E2CE2E0CAC90AC946F39A183DBE3C /* Pods-iAmARUITests-umbrella.h */,
+				4E843666BFEC9F2630CCFE8A4FC956D6 /* Pods-iAmARUITests.debug.xcconfig */,
+				3E1C0BB98390416D58FE4A42EE7C4DC0 /* Pods-iAmARUITests.release.xcconfig */,
+			);
+			name = "Pods-iAmARUITests";
+			path = "Target Support Files/Pods-iAmARUITests";
+			sourceTree = "<group>";
+		};
+		680C237687A9DA45829B6DDBBE20E95B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		7697569A0D16826C0E05464FE303A76E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18A1B69467CBD56797B6C7A2C418E7A6 /* RAMAnimatedTabBarController */,
+				8CCF6C432AC90F9371EBBEFC7190DEC4 /* SwifterSwift */,
+				B2B9EB3FAF93178DAE06DDD5C20D28FE /* TimelineTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D1934AF4BA594EF2F0ACAFD86A60A76 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7697569A0D16826C0E05464FE303A76E /* Pods */,
+				448FC672C4E8BC50B9E3B76E98DFE736 /* Products */,
+				FACAFB42BA83E3D2A1C828F1EB6EFBE5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCF6C432AC90F9371EBBEFC7190DEC4 /* SwifterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F03F55946EB395065974E549D980A /* ArrayExtensions.swift */,
+				EB91DDFED2AB926A4978A67A452624D3 /* BoolExtensions.swift */,
+				78D53621F90EBB0D18652153703610E2 /* CalendarExtensions.swift */,
+				334A114A6C223773E96117AE1CB9D671 /* CGColorExtensions.swift */,
+				9CFD76BFE87961EE82F71715F9431B8A /* CGFloatExtensions.swift */,
+				A33E9FE1B4C6433984B7672195F320F7 /* CGPointExtensions.swift */,
+				14E337AF0D6613E96022BE69D4626888 /* CGSizeExtensions.swift */,
+				03BC0C893E7F49A6DDD7D9809378600F /* CharacterExtensions.swift */,
+				EE6E3E939AEF4B6DB07E0FA244E49517 /* CLLocationExtensions.swift */,
+				7E32A4D4FE940AAFAEB2BC5722F69A78 /* CollectionExtensions.swift */,
+				48B22063446A6E96F08954F4A9E1C0F9 /* ColorExtensions.swift */,
+				9ECE56EE42544F0CE1089C81A1FB60AA /* ComparableExtensions.swift */,
+				B91E2BD47B74AD08F8E76DA8D800F473 /* DataExtensions.swift */,
+				DE4F9C734408680A6F3C7BA0203BA937 /* DateExtensions.swift */,
+				F20824B4D42EBAF070304864C621A2E9 /* DictionaryExtensions.swift */,
+				AF6C28BE890493FF63AC1922BB06A3A9 /* DoubleExtensions.swift */,
+				F01D27EA42FB596246371F70DD02075C /* FileManagerExtensions.swift */,
+				B66C279A92F771B6ADD74FFF6521B855 /* FloatExtensions.swift */,
+				35F5C6D4E447954E51E96EECDC3D39D5 /* FloatingPointExtensions.swift */,
+				913AA52C99E923DF11C395B1154E4692 /* FoundationDeprecated.swift */,
+				54408CD72032E2E6CFF3C86AE9005332 /* IntExtensions.swift */,
+				2D9A7CDB03CDC95BA605100C8A9BFBC8 /* LocaleExtensions.swift */,
+				B0D25B8CF48694520286CC05B9C2773A /* MKPolylineExtensions.swift */,
+				1E59D9112B968CC9B0D8E78F2EABFAF1 /* NSAttributedStringExtensions.swift */,
+				885112E51407110854EA87E09D261D60 /* NSImageExtensions.swift */,
+				C3811B464816328FEDF5821D092BBECC /* NSPredicateExtensions.swift */,
+				5645DCDF3CBCC207475F0434DB477523 /* NSViewExtensions.swift */,
+				F945F7AF8BBC0324404698005189B6B4 /* OptionalExtensions.swift */,
+				CE42C21FA8275FF4066438EF2D7C3D44 /* SequenceExtensions.swift */,
+				5B208A8F448A8CFB3E38C80FB1ADFF16 /* SignedIntegerExtensions.swift */,
+				A133244B8F05D8B517DB449DDD5E4A02 /* SignedNumericExtensions.swift */,
+				54EDBF3F4AB64B9AAF0EC64788CFDB0A /* SKNodeExtensions.swift */,
+				A7C6244EDD4DFC6258A4D5F0DC4994AB /* StringExtensions.swift */,
+				2E875C1B586FC2D6D63F5A10F035B21E /* StringProtocolExtensions.swift */,
+				809FF0B584D86D6AA4090B6FD46E71D4 /* SwifterSwift.swift */,
+				2BAACEA3D6B017D538E2BD079525081C /* SwiftStdlibDeprecated.swift */,
+				BACB8DC2A912C8ABBAC7DE2B32FA0807 /* UIAlertControllerExtensions.swift */,
+				C10E7A8A0EAA9B8C0E73562039445284 /* UIBarButtonItemExtensions.swift */,
+				347F8E29DDFAAFCFF6C02F937362E4C1 /* UIButtonExtensions.swift */,
+				A8C26EE171E318667235AA576F986EA9 /* UICollectionViewExtensions.swift */,
+				C0DDF919178C51A79085B8474DA05ABB /* UIDatePickerExtensions.swift */,
+				40AD963E6D007CD550FE3F6EF12C2399 /* UIEdgeInsetsExtensions.swift */,
+				A1A374B28C21A71AFCA6924CF33F0174 /* UIFontExtensions.swift */,
+				1D74CC6FF96E8EC7A107C1073FA19153 /* UIGestureRecognizerExtensions.swift */,
+				F8573DEF4EF8B2D60AF6577B4E9F6391 /* UIImageExtensions.swift */,
+				CFDA95BAD63AC76826BBBC70A4BB5166 /* UIImageViewExtensions.swift */,
+				E9364A1FBED3707435AFAA5B22850981 /* UIKitDeprecated.swift */,
+				0F5219F669667D8538CA7A2CE2B881AB /* UILabelExtensions.swift */,
+				7020DAEDBB0D40BCBAF3AB58A8D42D47 /* UINavigationBarExtensions.swift */,
+				ABB5AADD914F7FA67EB3A9DAB22B3F78 /* UINavigationControllerExtensions.swift */,
+				9A6E48FBBB7D92D840E73F75BE07BF20 /* UINavigationItemExtensions.swift */,
+				42E0535922F3C860DA1EC1F3D410D88D /* UIScrollViewExtensions.swift */,
+				64DF543543B24459D67D34213CECC639 /* UISearchBarExtensions.swift */,
+				274261DCB9667BF5EE33A6E302518010 /* UISegmentedControlExtensions.swift */,
+				B7DE7A49583D1E2D1801F464212FC718 /* UISliderExtensions.swift */,
+				08DB632380970A7BF94163B2ECD1F90C /* UIStackViewExtensions.swift */,
+				291AC593A8B094F634C6539996DD0917 /* UIStoryboardExtensions.swift */,
+				4769B9815E440C47746238C496BA6C25 /* UISwitchExtensions.swift */,
+				D2DAFEB267E58AC9A2515DEFAD61A3CE /* UITabBarExtensions.swift */,
+				5149ABC89048BFAF9A938813ABE6C301 /* UITableViewExtensions.swift */,
+				5006B222D5B7083F00B1F2E49ED502CD /* UITextFieldExtensions.swift */,
+				22E371E31951553F7B7B818FC46A79C3 /* UITextViewExtensions.swift */,
+				595B90DF557852D9A13A802C887970A1 /* UIViewControllerExtensions.swift */,
+				B43B4FA1CA7E277ED086C44753A93587 /* UIViewExtensions.swift */,
+				62450D4184052111384DB08265159CA7 /* UIWindowExtensions.swift */,
+				A0E8B2DADE449791BB35EB593BA932A7 /* URLExtensions.swift */,
+				6A9925E5166DB55AED3D1CF652CD2F69 /* URLRequestExtensions.swift */,
+				BF6DAEDF125386D6D7B0E02484E1D189 /* UserDefaultsExtensions.swift */,
+				027326BC3CA16D5579599629D598EC3D /* AppKit */,
+				915CCC19F6234166F0F370348CE759FD /* CoreGraphics */,
+				6573A5583DEB4275B82265E1B789DF57 /* CoreLocation */,
+				7D1934AF4BA594EF2F0ACAFD86A60A76 /* Foundation */,
+				BB2E7490DA9A6FB2C23D901A404610E1 /* MapKit */,
+				4230FC5DB16784CD176227949A6AF2E7 /* SpriteKit */,
+				31865BCD737AED2ABB8A4E8106019D7F /* Support Files */,
+				B15A9B245ECA2A5CD22A15F28AA13FC5 /* SwiftStdlib */,
+				680C237687A9DA45829B6DDBBE20E95B /* UIKit */,
+			);
+			name = SwifterSwift;
+			path = SwifterSwift;
+			sourceTree = "<group>";
+		};
+		915CCC19F6234166F0F370348CE759FD /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		A10A57ABB8B3C017D72E93622F0C73F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D774314D78D783A1592B19994CBC662 /* Info.plist */,
+				F1BE6E85A6FA1B2B33381B6BE9DCA7E5 /* ResourceBundle-TimelineTableViewCell-Info.plist */,
+				5E31784F9B092B8E67F4723F8E89F98C /* TimelineTableViewCell.modulemap */,
+				DCD8F3236C13B34A827B9A1CDD7022C4 /* TimelineTableViewCell.xcconfig */,
+				E53C165ABAE459D3E6FED2B33BAB7D10 /* TimelineTableViewCell-dummy.m */,
+				BFA6254A92D9C59C76E10B9A4A94E537 /* TimelineTableViewCell-prefix.pch */,
+				CA3C080FB0B6E182B9828CFFC43C96DE /* TimelineTableViewCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TimelineTableViewCell";
+			sourceTree = "<group>";
+		};
+		B15A9B245ECA2A5CD22A15F28AA13FC5 /* SwiftStdlib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SwiftStdlib;
+			sourceTree = "<group>";
+		};
+		B2B9EB3FAF93178DAE06DDD5C20D28FE /* TimelineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				692E4558AEB93C12FA99014A63183B6B /* Timeline.swift */,
+				B880167705C213655384D316BBC3FF75 /* TimelinePoint.swift */,
+				D6E1BEA66B932004BB3541C0F7C3EF0C /* TimelineTableViewCell.swift */,
+				F21BE0D31DDE0039DB13A4F397B0A06C /* Resources */,
+				A10A57ABB8B3C017D72E93622F0C73F5 /* Support Files */,
+			);
+			name = TimelineTableViewCell;
+			path = TimelineTableViewCell;
+			sourceTree = "<group>";
+		};
+		BB2E7490DA9A6FB2C23D901A404610E1 /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MapKit;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71936DFE05C8ACE965FC677B73D883B /* Pods-iAmARTests */ = {
+			isa = PBXGroup;
+			children = (
+				292E3F866CDA440E7625F2A78AEB5FFB /* Info.plist */,
+				229CDC174B8D71233C022AB191DD9038 /* Pods-iAmARTests.modulemap */,
+				40607E51EF73799463FBDD13344207E9 /* Pods-iAmARTests-acknowledgements.markdown */,
+				22B195512E161C49A0E78F310E7AAB3B /* Pods-iAmARTests-acknowledgements.plist */,
+				83B0FA86E8AD607AFEDD80C7CBC7ED64 /* Pods-iAmARTests-dummy.m */,
+				CA4268265E59740A5E5EFD9B8CB493E1 /* Pods-iAmARTests-frameworks.sh */,
+				9766065DA30C7DA9EACCF929C93652E5 /* Pods-iAmARTests-resources.sh */,
+				748F8465E4C9E96EEE5643F7FC7A35A3 /* Pods-iAmARTests-umbrella.h */,
+				56F4ED869B15A84E4F4DF2737C9038E7 /* Pods-iAmARTests.debug.xcconfig */,
+				B87BD630F641C8EAF94DE39FF2F54557 /* Pods-iAmARTests.release.xcconfig */,
+			);
+			name = "Pods-iAmARTests";
+			path = "Target Support Files/Pods-iAmARTests";
+			sourceTree = "<group>";
+		};
+		F21BE0D31DDE0039DB13A4F397B0A06C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABAE898D89FE4CC09AAA2E29BC435E84 /* TimelineTableViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FACAFB42BA83E3D2A1C828F1EB6EFBE5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				663BB517395A8992C1FC9DB9E5DBCF4B /* Pods-iAmAR */,
+				E71936DFE05C8ACE965FC677B73D883B /* Pods-iAmARTests */,
+				66BA20057B4907BA4FDD554589E08602 /* Pods-iAmARUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4293D5FD8F249AA8F7B8CB06EDB36DDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E56D4A87038A1962F3BD90A8A97F0CB /* Pods-iAmARTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD023A7238F796D7D653A5772BCBF4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA0ACD323E323B732901C28E901BB84 /* TimelineTableViewCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928D1B638CFC35CC73E721183AFFF6DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3604EDA233291BE4E993EB07EC6A0F1E /* Pods-iAmAR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BA4592E30FBCED3C247BE24D2A357F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D47871FB9C5DB80EDE420F425108A7 /* SwifterSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13969FA6C149F33029FD6A8314B7C44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BC051AC5DE6B4816FB3D3D0CFDA396 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE280C654C0AD3370A059C211DBDD549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA48783D2791A5F38C0C935A7C1A788 /* Pods-iAmARUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F390B32B67C780A3B067A6C0E70DB5F /* Pods-iAmARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5506EDFE10C97E85307B8582E4598BA1 /* Build configuration list for PBXNativeTarget "Pods-iAmARTests" */;
+			buildPhases = (
+				3E39DD77F8132F64355E24C047F5D7F2 /* Sources */,
+				262E759E1B1B643AC5268512DC586F0F /* Frameworks */,
+				4293D5FD8F249AA8F7B8CB06EDB36DDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDB41408EC0342BF326FC5ADBE0992A /* PBXTargetDependency */,
+			);
+			name = "Pods-iAmARTests";
+			productName = "Pods-iAmARTests";
+			productReference = 2E4B8883E12D8560AE31F6B7B27013AF /* Pods_iAmARTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7090C0A8373041A8789A465DC4043467 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0364E1528D5BD1EA3205BFB1EEB28F56 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				D7C3A3A89CB1A2E64C157DCA16532F6D /* Sources */,
+				5C62B18C770A2CB9ADA4BBF8B187F394 /* Frameworks */,
+				B13969FA6C149F33029FD6A8314B7C44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = B04175917D2052A4DEB7FA265F65AF70 /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9396AFAA9BC4A65ACAB02A7348438B00 /* Pods-iAmARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCBB98B0B019C768C0734B3660EDB67 /* Build configuration list for PBXNativeTarget "Pods-iAmARUITests" */;
+			buildPhases = (
+				053B3E0298DF314AE575B47BB22AF102 /* Sources */,
+				D7F192EBED66C71AABEA5C2118D353AF /* Frameworks */,
+				FE280C654C0AD3370A059C211DBDD549 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3DEEF2E2F8F027E6B6B864124EAAD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-iAmARUITests";
+			productName = "Pods-iAmARUITests";
+			productReference = 230EB2EB1A0AFA5ED02D48E42483CD62 /* Pods_iAmARUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE077BECB5B51509CBB3EE6C9BFEB381 /* TimelineTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED382943784DC451F4150A09B64CE1E /* Build configuration list for PBXNativeTarget "TimelineTableViewCell" */;
+			buildPhases = (
+				7D60A9CD97759887D8E693E6DAC802B8 /* Sources */,
+				4EEE3647313B549B69FD56C59E190BBC /* Frameworks */,
+				C939903575D9E6F679752850EB3B8844 /* Resources */,
+				8AD023A7238F796D7D653A5772BCBF4F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CD9F66433B8296C44ABD3AC5A36D7D8 /* PBXTargetDependency */,
+			);
+			name = TimelineTableViewCell;
+			productName = TimelineTableViewCell;
+			productReference = 4CEF2DFC0559FB5885DFEE4E59B905CA /* TimelineTableViewCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0B140958763C118DD03CCA97B61C9AD /* SwifterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C1E63D98E8A0110AD8BB841C3D293CE /* Build configuration list for PBXNativeTarget "SwifterSwift" */;
+			buildPhases = (
+				E7F23C9EDB01E244FBE5F4A387AD2A71 /* Sources */,
+				602A6400B671C49A3DF4B35C1F258A39 /* Frameworks */,
+				A3BA4592E30FBCED3C247BE24D2A357F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifterSwift;
+			productName = SwifterSwift;
+			productReference = 81456B0305A040263AA8A4D8B9953B80 /* SwifterSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F40044483D4711CBD20A4398D8930666 /* Pods-iAmAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627FB6520192C950039FDB0BA0056142 /* Build configuration list for PBXNativeTarget "Pods-iAmAR" */;
+			buildPhases = (
+				C7EF055302F3AA28B356A43926AF121A /* Sources */,
+				AF89098341A5807A7F1BC21ABFC49997 /* Frameworks */,
+				928D1B638CFC35CC73E721183AFFF6DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B084DE9FDD5ACE24150C4FC54B23839E /* PBXTargetDependency */,
+				F1FB03B414753AA7262B3601AF517CDD /* PBXTargetDependency */,
+				1AC185BF6E9CF957EDD0361EDC9EFFDC /* PBXTargetDependency */,
+			);
+			name = "Pods-iAmAR";
+			productName = "Pods-iAmAR";
+			productReference = C0D2D6BFF3D57317BCB9F3079F206CD0 /* Pods_iAmAR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7B911479FF744FC2D444CEAD701A1EA /* TimelineTableViewCell-TimelineTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62543B73B1BC661A65F90D43164DC55C /* Build configuration list for PBXNativeTarget "TimelineTableViewCell-TimelineTableViewCell" */;
+			buildPhases = (
+				C3BC6A7189DBA803F05D12F796BE9794 /* Sources */,
+				D2C966CDD5F0DDA8F311C3010E263469 /* Frameworks */,
+				65560899C0EEE9703A2AC95074751F61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimelineTableViewCell-TimelineTableViewCell";
+			productName = "TimelineTableViewCell-TimelineTableViewCell";
+			productReference = 098D44E244EB8CF4B898D44103577299 /* TimelineTableViewCell.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 448FC672C4E8BC50B9E3B76E98DFE736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40044483D4711CBD20A4398D8930666 /* Pods-iAmAR */,
+				3F390B32B67C780A3B067A6C0E70DB5F /* Pods-iAmARTests */,
+				9396AFAA9BC4A65ACAB02A7348438B00 /* Pods-iAmARUITests */,
+				7090C0A8373041A8789A465DC4043467 /* RAMAnimatedTabBarController */,
+				E0B140958763C118DD03CCA97B61C9AD /* SwifterSwift */,
+				AE077BECB5B51509CBB3EE6C9BFEB381 /* TimelineTableViewCell */,
+				F7B911479FF744FC2D444CEAD701A1EA /* TimelineTableViewCell-TimelineTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65560899C0EEE9703A2AC95074751F61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD519CF2E2729C05C3594F60F261789 /* TimelineTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C939903575D9E6F679752850EB3B8844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E5D5033E09E0E8C812028964A813 /* TimelineTableViewCell.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		053B3E0298DF314AE575B47BB22AF102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9ABA834F60257CB9CAE9D3A2E7C5790 /* Pods-iAmARUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E39DD77F8132F64355E24C047F5D7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F824AD9D493A226DC547CBF36889DA8D /* Pods-iAmARTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D60A9CD97759887D8E693E6DAC802B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDE9CBEBF2D4A4ABB9F6D89724D2747 /* Timeline.swift in Sources */,
+				F8790CA71A57D63045A27CDB2053EC95 /* TimelinePoint.swift in Sources */,
+				4FA9FA4A720575C0BF086079856092A5 /* TimelineTableViewCell-dummy.m in Sources */,
+				4CDB9E69D462591B0E1EB353412FA698 /* TimelineTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3BC6A7189DBA803F05D12F796BE9794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF055302F3AA28B356A43926AF121A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D592ABA84ADC693C3883697D5A8308A /* Pods-iAmAR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C3A3A89CB1A2E64C157DCA16532F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03872077101F1C24BA87A64431586E54 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				BA5268E507A5DFB4F69550E12CD97733 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				9E9CD6640921C969953D66D734F8D34E /* RAMAnimatedTabBarController.swift in Sources */,
+				2BCCBD33161499D67F259756E021CF58 /* RAMBadge.swift in Sources */,
+				034E8B2C1E51697516D2C52154A0F945 /* RAMBounceAnimation.swift in Sources */,
+				07548AA6527BB0B064451CDCC1A4B510 /* RAMFrameItemAnimation.swift in Sources */,
+				8DA20E61B07470BC340FB58B738722DF /* RAMFumeAnimation.swift in Sources */,
+				EA705E91893A995B35DC2E0A24C96071 /* RAMItemAnimationProtocol.swift in Sources */,
+				A5A4C964961C70115C31ADA36FA1643B /* RAMRotationAnimation.swift in Sources */,
+				7CC9C7FBD2D079584C066B07D0F1CFB2 /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F23C9EDB01E244FBE5F4A387AD2A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0346780644106B33ACDB775E544E2C7F /* ArrayExtensions.swift in Sources */,
+				8B83987B2E9CB79D168688D37B03FE80 /* BoolExtensions.swift in Sources */,
+				C247D561F8B0A6175FB606F1EA3370B2 /* CalendarExtensions.swift in Sources */,
+				7B8C5E3453BCC98987B3730FA9E4B145 /* CGColorExtensions.swift in Sources */,
+				6385BA84AF8B0DB2E93014169880EC15 /* CGFloatExtensions.swift in Sources */,
+				6FB72917A660DC819FA6E491E674D4F8 /* CGPointExtensions.swift in Sources */,
+				5D725A56E125FA97C2241C6553E42182 /* CGSizeExtensions.swift in Sources */,
+				3D2D85EB6D67B13A60F84CE1F941EC6A /* CharacterExtensions.swift in Sources */,
+				EFCC935A17B1077D6A7144534D7A3E65 /* CLLocationExtensions.swift in Sources */,
+				43E9AC4DADE2F1A5F94F847F54085452 /* CollectionExtensions.swift in Sources */,
+				AC3883E937AF2F1887EB46BC56D5D112 /* ColorExtensions.swift in Sources */,
+				E78E8389FCA17085E5BA51DAE45D4883 /* ComparableExtensions.swift in Sources */,
+				B2C639ADBCA3B7B32F3036876EFC8F55 /* DataExtensions.swift in Sources */,
+				3BB51458E07E0E9F2B5021250AFF58E1 /* DateExtensions.swift in Sources */,
+				A531FC3A1170821004F490A2C8CDB72F /* DictionaryExtensions.swift in Sources */,
+				452D8709EFDFC19EDA5A3A36A7614840 /* DoubleExtensions.swift in Sources */,
+				2F4BED55E099EFCABCA823CD3B9B7B36 /* FileManagerExtensions.swift in Sources */,
+				A5E19DD9CDED64D598685D7BF9E2BB33 /* FloatExtensions.swift in Sources */,
+				01388C0C063D86A5C5033EF62CD8F656 /* FloatingPointExtensions.swift in Sources */,
+				C21D8FD45C4D4DBA510FBFE09F14C95C /* FoundationDeprecated.swift in Sources */,
+				D75EB3EAB3091ED2861DE409E1D0E59E /* IntExtensions.swift in Sources */,
+				C2DC528DEA10CCCDBC6F9BD1402D224C /* LocaleExtensions.swift in Sources */,
+				2564BCAE909382F95DBC41BCBD1390C4 /* MKPolylineExtensions.swift in Sources */,
+				14C2768C85C0209CD82106DD65849F97 /* NSAttributedStringExtensions.swift in Sources */,
+				824ADE47B556DF080CB28EE67DA0BFF9 /* NSImageExtensions.swift in Sources */,
+				7105A4B8B091A2546C551A6A82243E64 /* NSPredicateExtensions.swift in Sources */,
+				E73A13AAB0A766435D7BB9C5C2E9C67F /* NSViewExtensions.swift in Sources */,
+				EC7CB25351596CAF05DF66DB3FAC18BB /* OptionalExtensions.swift in Sources */,
+				00AEEE09B2A6CB97BD761C22CC068699 /* SequenceExtensions.swift in Sources */,
+				32CDC5F756E33403AC23AA5AB59E5460 /* SignedIntegerExtensions.swift in Sources */,
+				457F06EE912D20836BBBD46871F91613 /* SignedNumericExtensions.swift in Sources */,
+				930E24232401C7BE59D3AC684009496D /* SKNodeExtensions.swift in Sources */,
+				16317E1CDD335FAE8255EC813653D388 /* StringExtensions.swift in Sources */,
+				26E06BF2B7BBCF6D5ABD3A64AFE53C7B /* StringProtocolExtensions.swift in Sources */,
+				61E6138ACD39196436F2F89E19D54F11 /* SwifterSwift-dummy.m in Sources */,
+				53ACF6AEFDC30EDF1616C41CFC8D05DD /* SwifterSwift.swift in Sources */,
+				18ACF2383E3706052D07EDC9390634F5 /* SwiftStdlibDeprecated.swift in Sources */,
+				13D2FAFEA3087DB6869159428BEAD2D4 /* UIAlertControllerExtensions.swift in Sources */,
+				0DDBE415F56248DB9E225529F9145202 /* UIBarButtonItemExtensions.swift in Sources */,
+				BF7B91012A834D9E82E3AA97682BBACD /* UIButtonExtensions.swift in Sources */,
+				882ED16BE2F83DD5388F960CF6E9B3D0 /* UICollectionViewExtensions.swift in Sources */,
+				A43DC3F38CACAFA267F6F7B16EA988CE /* UIDatePickerExtensions.swift in Sources */,
+				77CCEF064C503A63C6A7D2096D010187 /* UIEdgeInsetsExtensions.swift in Sources */,
+				1D912C9D6D67A03463FE8C7BC0C1F677 /* UIFontExtensions.swift in Sources */,
+				77C5DABF1EA963E366D1E176E1807514 /* UIGestureRecognizerExtensions.swift in Sources */,
+				A5101485B317541571E1D4E3455D38C5 /* UIImageExtensions.swift in Sources */,
+				2D63E9FCC7C4C6D9928336E7887439A9 /* UIImageViewExtensions.swift in Sources */,
+				22471C62FC4A0B998D37F7102356326E /* UIKitDeprecated.swift in Sources */,
+				7B0B6629B0B98CAA8FB43DD91DD67345 /* UILabelExtensions.swift in Sources */,
+				9AB45854CE0D4DFD13CBFEC31F440799 /* UINavigationBarExtensions.swift in Sources */,
+				73D4B61380CF1FF6AEDFF0EB6A769E45 /* UINavigationControllerExtensions.swift in Sources */,
+				1442082794ED17D41C9A3EE7C630069E /* UINavigationItemExtensions.swift in Sources */,
+				CE5853D2EA4E90AB663F500877323C51 /* UIScrollViewExtensions.swift in Sources */,
+				FA5065B8EB571B1E0CB10E17755BB3BF /* UISearchBarExtensions.swift in Sources */,
+				AFFD398758DEA7BF1DA96EB832DDBEA8 /* UISegmentedControlExtensions.swift in Sources */,
+				FE6A0A4D9C81E5D2EF0960298E8420BE /* UISliderExtensions.swift in Sources */,
+				42F9C3C09A0D0CC46C1821ECA5DC5E07 /* UIStackViewExtensions.swift in Sources */,
+				FBAE2E45D81E6D547385478433541394 /* UIStoryboardExtensions.swift in Sources */,
+				CF6657B54C06B2BAAF8422881DA91BBA /* UISwitchExtensions.swift in Sources */,
+				2544F661A317AAF37F8CD1B1BEC24A42 /* UITabBarExtensions.swift in Sources */,
+				7AC63674104CADBB0C1A4D97BECC3761 /* UITableViewExtensions.swift in Sources */,
+				D267F23FD50406447424F0FBF075554F /* UITextFieldExtensions.swift in Sources */,
+				57908BFD6D93743E823708B2E711808C /* UITextViewExtensions.swift in Sources */,
+				A03325A787D3FC20D2F7219245D8D8BF /* UIViewControllerExtensions.swift in Sources */,
+				0557A35F7D88DF1607482334ABC5F9E8 /* UIViewExtensions.swift in Sources */,
+				5C3A88A8BBF9C7E1018759AB0325422F /* UIWindowExtensions.swift in Sources */,
+				4BDFCD9BB4C9E7DBB57F58CDCEF1EE4C /* URLExtensions.swift in Sources */,
+				B87E1E49EF7E611AFA44209FE8B416BB /* URLRequestExtensions.swift in Sources */,
+				7CCAC8F27EB72C4D5B8A7AC2C307E303 /* UserDefaultsExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC185BF6E9CF957EDD0361EDC9EFFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimelineTableViewCell;
+			target = AE077BECB5B51509CBB3EE6C9BFEB381 /* TimelineTableViewCell */;
+			targetProxy = E869A89F4CC2B40DC8712880325B2324 /* PBXContainerItemProxy */;
+		};
+		2CDB41408EC0342BF326FC5ADBE0992A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iAmAR";
+			target = F40044483D4711CBD20A4398D8930666 /* Pods-iAmAR */;
+			targetProxy = D632C37865770FB5CE6E39E10AB34953 /* PBXContainerItemProxy */;
+		};
+		7CD9F66433B8296C44ABD3AC5A36D7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TimelineTableViewCell-TimelineTableViewCell";
+			target = F7B911479FF744FC2D444CEAD701A1EA /* TimelineTableViewCell-TimelineTableViewCell */;
+			targetProxy = 3830E952EA7F2ABADB4C81643226EA35 /* PBXContainerItemProxy */;
+		};
+		8B3DEEF2E2F8F027E6B6B864124EAAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-iAmAR";
+			target = F40044483D4711CBD20A4398D8930666 /* Pods-iAmAR */;
+			targetProxy = 4DC514EC37DC68B2A7963D9C7B01AB91 /* PBXContainerItemProxy */;
+		};
+		B084DE9FDD5ACE24150C4FC54B23839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = 7090C0A8373041A8789A465DC4043467 /* RAMAnimatedTabBarController */;
+			targetProxy = 57EDFE4311A2F65A253FEDB8E19997AE /* PBXContainerItemProxy */;
+		};
+		F1FB03B414753AA7262B3601AF517CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifterSwift;
+			target = E0B140958763C118DD03CCA97B61C9AD /* SwifterSwift */;
+			targetProxy = 7603CC325A091C7D98444031634D6050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		060DAE706973CF3A3754CCCB510C474D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD8F3236C13B34A827B9A1CDD7022C4 /* TimelineTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell.modulemap";
+				PRODUCT_MODULE_NAME = TimelineTableViewCell;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CB037616E784AAD2793490D8286C513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87BD630F641C8EAF94DE39FF2F54557 /* Pods-iAmARTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iAmARTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iAmARTests/Pods-iAmARTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A480D72B25091F96274710B3A3443B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD8F3236C13B34A827B9A1CDD7022C4 /* TimelineTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimelineTableViewCell";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/ResourceBundle-TimelineTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3EC9CABD9647E7420C0E2C8790CEE830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D735D0CDADCE29F9BD2B3CDB8475F4 /* SwifterSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwift/SwifterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwifterSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwifterSwift/SwifterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SwifterSwift;
+				PRODUCT_NAME = SwifterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		490376B61CA13EBAB27B7E049F7794A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD8F3236C13B34A827B9A1CDD7022C4 /* TimelineTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimelineTableViewCell";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/ResourceBundle-TimelineTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4B025230777DFFC6484EC5917612891C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402EDF500C9B42467F9A780FB7E4F5B9 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5E1F6E5A03EE734E75AA41DBBAED4BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F4ED869B15A84E4F4DF2737C9038E7 /* Pods-iAmARTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iAmARTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iAmARTests/Pods-iAmARTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89720BA031FF3FE767C64D30286B43F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E843666BFEC9F2630CCFE8A4FC956D6 /* Pods-iAmARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iAmARUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iAmARUITests/Pods-iAmARUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC4E90AACDB564FFA0106D033F7E4E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1C0BB98390416D58FE4A42EE7C4DC0 /* Pods-iAmARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iAmARUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iAmARUITests/Pods-iAmARUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C614AF8CBFD67182A98D7B8ABC6E01E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D735D0CDADCE29F9BD2B3CDB8475F4 /* SwifterSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwifterSwift/SwifterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwifterSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwifterSwift/SwifterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SwifterSwift;
+				PRODUCT_NAME = SwifterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8A9C8D3E1C27B86DB1D1095DB1ABE7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402EDF500C9B42467F9A780FB7E4F5B9 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3548B80738F5DCEB9E9EF53DBA54E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B344B673C56C0A76962E4A57D8249FFE /* Pods-iAmAR.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iAmAR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iAmAR/Pods-iAmAR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF1441E44F12084FE840D7C91F1964FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD8F3236C13B34A827B9A1CDD7022C4 /* TimelineTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell.modulemap";
+				PRODUCT_MODULE_NAME = TimelineTableViewCell;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0C518BAF4FBBF0C7333F5B81BF456DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EB5EE58FDDF2CB4ED8216F13BC23A3E /* Pods-iAmAR.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iAmAR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iAmAR/Pods-iAmAR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0364E1528D5BD1EA3205BFB1EEB28F56 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A9C8D3E1C27B86DB1D1095DB1ABE7E /* Debug */,
+				4B025230777DFFC6484EC5917612891C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED382943784DC451F4150A09B64CE1E /* Build configuration list for PBXNativeTarget "TimelineTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				060DAE706973CF3A3754CCCB510C474D /* Debug */,
+				EF1441E44F12084FE840D7C91F1964FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C1E63D98E8A0110AD8BB841C3D293CE /* Build configuration list for PBXNativeTarget "SwifterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C614AF8CBFD67182A98D7B8ABC6E01E3 /* Debug */,
+				3EC9CABD9647E7420C0E2C8790CEE830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5506EDFE10C97E85307B8582E4598BA1 /* Build configuration list for PBXNativeTarget "Pods-iAmARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1F6E5A03EE734E75AA41DBBAED4BB3 /* Debug */,
+				1CB037616E784AAD2793490D8286C513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62543B73B1BC661A65F90D43164DC55C /* Build configuration list for PBXNativeTarget "TimelineTableViewCell-TimelineTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490376B61CA13EBAB27B7E049F7794A0 /* Debug */,
+				2A480D72B25091F96274710B3A3443B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627FB6520192C950039FDB0BA0056142 /* Build configuration list for PBXNativeTarget "Pods-iAmAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3548B80738F5DCEB9E9EF53DBA54E41 /* Debug */,
+				F0C518BAF4FBBF0C7333F5B81BF456DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCBB98B0B019C768C0734B3660EDB67 /* Build configuration list for PBXNativeTarget "Pods-iAmARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89720BA031FF3FE767C64D30286B43F5 /* Debug */,
+				AC4E90AACDB564FFA0106D033F7E4E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
