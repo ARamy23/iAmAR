@@ -19,7 +19,17 @@ class ExperienceSectionVC: UIViewController {
         1:[(TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "03/2018", "Finished all the sections of the online iOS Bootcamp with all the challenges", "Completed Angela Yu's Online Course", nil, "Sun"),
         (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "03/2018", "Completed My first full app which was a food ordering app clone with dummy backend", "Made Otlob Clone", nil, "Sun"),
         (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "03/2018", "Made an Object Identifier app which takes a photo of any object and identifies it a through Wikipedia API with 72% accuracy", "Made an Object Identifier", nil, "Sun"),
-        (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "03/2018", "Made a Ping Pong game with 3 Different Levels of diffculty", "Made a Ping Pong Game", nil, "Sun")]
+        (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "03/2018", "Made a Ping Pong game with 3 Different Levels of diffculty", "Made a Ping Pong Game", nil, "Sun")],
+        2:[(TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "04/2018", "Made a College project which calculates the simplex method and got 20 points", "Simplex Method App", nil, "Sun"),
+        (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "04/2018", "Created my first game which is Ping Pong Game", "Made PiPo", nil, "Sun")],
+        3:[(TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "05/2018", "A Tasbih App with pretty pulse animation", "Made Ozkor", nil, "Sun")],
+        4:[(TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "06/2018", "Got my first Internship", "Wi-Fi Metropolis", nil, "Sun")],
+        5:[(TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "07/2018", "Published My First Open-source project which is a TDD Network Layer Inspired from a fellow Developer", "First Open-source project", nil, "Sun"),
+        (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "07/2018", "Published My 2nd Open-source project which is a generic CollectionViewController and a TableViewController in-which u just pass it ur datasource and it will display it without a hassle", "Second Open-source project", nil, "Sun"),
+        (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "07/2018", "Finally finished Stanford's CS193P Course with all it's assignments", "Finished CS193P", nil, "Sun"),
+        (TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "07/2018", "Decided to leave the Internship at just that and continue my career as an Upwork freelancer", "Finished My Internship with Wi-Fi Metropolis", nil, "Sun")],
+        6:[(TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "08/2018", "Finished Ray Wenderlich: Animations Tutorials with all it's challenges", "Who's animating here and there now?", nil, "Sun")],
+        7:[(TimelinePoint(), #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1), "First Day of September", "Started Working on Upwork", "New Month\nNew Start", nil, "Sun")]
     ]
     
     override func viewDidLoad() {
@@ -32,11 +42,41 @@ class ExperienceSectionVC: UIViewController {
                                              bundle: Bundle(url: nibUrl!)!)
         timelineTableView.register(timelineTableViewCellNib, forCellReuseIdentifier: "TimelineTableViewCell")
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        animateTableViewCells()
+    }
 
 }
 
 extension ExperienceSectionVC: UITableViewDelegate, UITableViewDataSource
 {
+    func animateTableViewCells()
+    {
+        timelineTableView.reloadData()
+        let cells = timelineTableView.visibleCells as! [TimelineTableViewCell]
+//        let tableHeight = timelineTableView.height
+        
+        for cell in cells
+        {
+            cell.transform = CGAffineTransform(scaleX: 0.01, y: 0.01)
+        }
+        
+        var index = 0
+        
+        for cell in cells
+        {
+            UIView.animate(withDuration: 3.0, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: {
+                cell.transform = .identity
+            }, completion: nil)
+            index += 1
+        }
+        
+        
+        
+    }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return data.count
     }
@@ -50,9 +90,21 @@ extension ExperienceSectionVC: UITableViewDelegate, UITableViewDataSource
         switch section
         {
         case 0:
-            return "Month 1"
+            return "Januray"
         case 1:
-            return "Month 3"
+            return "March"
+        case 2:
+            return "April"
+        case 3:
+            return "May"
+        case 4:
+            return "June"
+        case 5:
+            return "July"
+        case 6:
+            return "August"
+        case 7:
+            return "September"
         default:
             break
         }
