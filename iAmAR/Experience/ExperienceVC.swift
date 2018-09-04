@@ -86,6 +86,7 @@ class ExperienceVC: UIViewController {
     
     @IBAction func didChangeTab(_ sender: UIButton)
     {
+        if sender.tag == activeButtonIndex { return }
         animateDynamicView(sender)
         activeButtonIndex = sender.tag
         delegate?.choseTab(at: sender.tag)

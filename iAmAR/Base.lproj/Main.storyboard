@@ -10,6 +10,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -130,7 +131,7 @@
         <!--Main PageVC-->
         <scene sceneID="0mV-Rk-rO9">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="p6l-iI-M49" customClass="MainPageVC" customModule="iAmAR" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="p6l-iI-M49" customClass="MainPageVC" customModule="iAmAR" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="ftW-Sm-haJ" kind="show" id="2rj-Gd-bc8"/>
                         <segue destination="jdW-Jh-9BK" kind="show" id="2Ox-CQ-jkD"/>
@@ -148,7 +149,357 @@
                     <view key="view" contentMode="scaleToFill" id="Qze-5D-8Lr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="481"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="Primary Color"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tools" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yet-b2-MRS">
+                                <rect key="frame" x="20" y="28" width="50.5" height="26"/>
+                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Skills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgl-aL-5Zn">
+                                <rect key="frame" x="20" y="316" width="141" height="26"/>
+                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GM5-oY-pUK">
+                                <rect key="frame" x="20" y="74" width="335" height="222"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UVk-wg-dSK">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0LU-57-FK2">
+                                                <rect key="frame" x="0.0" y="0.0" width="106.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Swift">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTi-jP-Fbg">
+                                                <rect key="frame" x="114.5" y="0.0" width="106" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Vapor">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb6-Xi-dLI">
+                                                <rect key="frame" x="228.5" y="0.0" width="106.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="XCode">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vea-YE-iQQ">
+                                        <rect key="frame" x="0.0" y="46" width="335" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pb3-8v-3wi">
+                                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Alamofire">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xXE-nJ-ORN">
+                                                <rect key="frame" x="171.5" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Kingfisher">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3jR-C2-f49">
+                                        <rect key="frame" x="0.0" y="92" width="335" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQK-qf-cEb">
+                                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Adobe Xd">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0i-6V-LsK">
+                                                <rect key="frame" x="171.5" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Sketch">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="paM-T7-2Jq">
+                                        <rect key="frame" x="0.0" y="138" width="335" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="107-UO-ys4">
+                                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Core Graphics">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Av-3g-cAc">
+                                                <rect key="frame" x="171.5" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Core Animations">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swa-K1-imr">
+                                        <rect key="frame" x="0.0" y="184" width="335" height="38"/>
+                                        <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                        <state key="normal" title="Core Data">
+                                            <color key="titleColor" name="Primary Color"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" name="Primary Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="swa-K1-imr" secondAttribute="trailing" id="0JI-U4-2hR"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vea-YE-iQQ" secondAttribute="trailing" id="gBb-MA-dPI"/>
+                                    <constraint firstAttribute="trailing" secondItem="3jR-C2-f49" secondAttribute="trailing" id="s8S-UG-lXs"/>
+                                    <constraint firstAttribute="trailing" secondItem="UVk-wg-dSK" secondAttribute="trailing" id="whY-fc-Yom"/>
+                                    <constraint firstAttribute="trailing" secondItem="paM-T7-2Jq" secondAttribute="trailing" id="wr9-Yy-HKG"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="ZSf-Pc-J9a">
+                                <rect key="frame" x="20" y="350" width="335" height="122"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qz6-pU-WJr">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyC-Rm-za3">
+                                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="15"/>
+                                                <state key="normal" title="Self-Motivated">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbm-Em-6zL">
+                                                <rect key="frame" x="171.5" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Ninja">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="JSN-wb-9aw">
+                                        <rect key="frame" x="0.0" y="42" width="335" height="38"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FyK-F8-3Nu">
+                                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Fast Learner">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-nf-w4h">
+                                                <rect key="frame" x="171.5" y="0.0" width="163.5" height="38"/>
+                                                <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                                <state key="normal" title="Team-Player">
+                                                    <color key="titleColor" name="Primary Color"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" name="Primary Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHg-sp-tXV">
+                                        <rect key="frame" x="60.5" y="84" width="214" height="38"/>
+                                        <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                        <state key="normal" title="Problem Solver">
+                                            <color key="titleColor" name="Primary Color"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" name="Primary Color"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="JSN-wb-9aw" firstAttribute="leading" secondItem="ZSf-Pc-J9a" secondAttribute="leading" id="9uN-AJ-fCp"/>
+                                    <constraint firstAttribute="trailing" secondItem="JSN-wb-9aw" secondAttribute="trailing" id="Gzb-73-Q64"/>
+                                    <constraint firstItem="XHg-sp-tXV" firstAttribute="leading" secondItem="ZSf-Pc-J9a" secondAttribute="leading" constant="60.5" id="Hbv-M4-V7z"/>
+                                    <constraint firstItem="qz6-pU-WJr" firstAttribute="leading" secondItem="ZSf-Pc-J9a" secondAttribute="leading" id="QQF-e1-eX1"/>
+                                    <constraint firstAttribute="trailing" secondItem="qz6-pU-WJr" secondAttribute="trailing" id="VHn-Rp-VTq"/>
+                                    <constraint firstAttribute="trailing" secondItem="XHg-sp-tXV" secondAttribute="trailing" constant="60.5" id="rv1-Pt-CtK"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Kgl-aL-5Zn" firstAttribute="leading" secondItem="xKL-Mm-dO8" secondAttribute="leading" constant="20" id="5eu-8N-qBM"/>
+                            <constraint firstItem="ZSf-Pc-J9a" firstAttribute="top" secondItem="Kgl-aL-5Zn" secondAttribute="bottom" constant="8" id="L0s-p0-XxZ"/>
+                            <constraint firstItem="Yet-b2-MRS" firstAttribute="top" secondItem="xKL-Mm-dO8" secondAttribute="top" constant="8" id="SB3-b7-wAK"/>
+                            <constraint firstItem="GM5-oY-pUK" firstAttribute="top" secondItem="Yet-b2-MRS" secondAttribute="bottom" constant="20" id="VcH-gn-7oZ"/>
+                            <constraint firstItem="Kgl-aL-5Zn" firstAttribute="top" secondItem="GM5-oY-pUK" secondAttribute="bottom" constant="20" id="ZNx-Po-mpj"/>
+                            <constraint firstItem="xKL-Mm-dO8" firstAttribute="trailing" secondItem="GM5-oY-pUK" secondAttribute="trailing" constant="20" id="aRC-hK-Y3C"/>
+                            <constraint firstItem="GM5-oY-pUK" firstAttribute="leading" secondItem="xKL-Mm-dO8" secondAttribute="leading" constant="20" id="mbV-qz-ytD"/>
+                            <constraint firstItem="ZSf-Pc-J9a" firstAttribute="leading" secondItem="xKL-Mm-dO8" secondAttribute="leading" constant="20" id="mec-Bo-a5H"/>
+                            <constraint firstItem="Yet-b2-MRS" firstAttribute="leading" secondItem="xKL-Mm-dO8" secondAttribute="leading" constant="20" id="rx6-jA-c6r"/>
+                            <constraint firstItem="xKL-Mm-dO8" firstAttribute="trailing" secondItem="ZSf-Pc-J9a" secondAttribute="trailing" constant="20" id="xiR-xm-9wg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xKL-Mm-dO8"/>
                     </view>
                 </viewController>
@@ -190,20 +541,55 @@
             </objects>
             <point key="canvasLocation" x="-454" y="2008"/>
         </scene>
-        <!--View Controller-->
+        <!--EducationVC-->
         <scene sceneID="DjG-A3-0Gf">
             <objects>
-                <viewController storyboardIdentifier="EducationVC" id="iXd-wD-rJ8" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EducationVC" id="iXd-wD-rJ8" customClass="EducationVC" customModule="iAmAR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="626-IE-qtk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="481"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MHG-g0-14A">
+                                <rect key="frame" x="0.0" y="20" width="375" height="461"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="H0L-1y-qen">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="iXd-wD-rJ8" id="ErG-tn-XIS"/>
+                                    <outlet property="delegate" destination="iXd-wD-rJ8" id="cFA-HC-IwX"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDe-XK-CfG">
+                                <rect key="frame" x="0.0" y="381" width="375" height="100"/>
+                                <color key="backgroundColor" name="Terinary Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="SjY-ux-ePE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2FF-jF-8vi" firstAttribute="bottom" secondItem="cDe-XK-CfG" secondAttribute="bottom" id="4Qg-5p-0Ze"/>
+                            <constraint firstItem="2FF-jF-8vi" firstAttribute="bottom" secondItem="MHG-g0-14A" secondAttribute="bottom" id="CCv-7O-fvS"/>
+                            <constraint firstItem="MHG-g0-14A" firstAttribute="leading" secondItem="2FF-jF-8vi" secondAttribute="leading" id="Clq-o9-41y"/>
+                            <constraint firstItem="cDe-XK-CfG" firstAttribute="leading" secondItem="2FF-jF-8vi" secondAttribute="leading" id="Jy0-d2-aiM"/>
+                            <constraint firstItem="cDe-XK-CfG" firstAttribute="trailing" secondItem="2FF-jF-8vi" secondAttribute="trailing" id="WK4-oL-9Za"/>
+                            <constraint firstItem="2FF-jF-8vi" firstAttribute="trailing" secondItem="MHG-g0-14A" secondAttribute="trailing" id="XLw-DM-XUX"/>
+                            <constraint firstItem="MHG-g0-14A" firstAttribute="top" secondItem="2FF-jF-8vi" secondAttribute="top" id="aCg-Og-3t5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2FF-jF-8vi"/>
                     </view>
+                    <connections>
+                        <outlet property="educationTimelineTableVIew" destination="MHG-g0-14A" id="Laz-dy-ekH"/>
+                        <outlet property="waveContainerView" destination="cDe-XK-CfG" id="xdD-gI-Lfz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rva-HU-hSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="330" y="2008"/>
+            <point key="canvasLocation" x="328.80000000000001" y="2007.346326836582"/>
         </scene>
         <!--About Me-->
         <scene sceneID="1KO-yh-M2H">
@@ -255,9 +641,9 @@
                                     <outlet property="delegate" destination="Cgp-gU-t7Y" id="vf6-rv-E1c"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ouy-eV-7q3">
-                                <rect key="frame" x="16" y="244" width="359" height="204.5"/>
-                                <string key="text">“A 20 Year-Old, Jr. iOS Dev., second year at college student with 8 months of experience and a GitHub profile with over 30 Projects from Backend Vapor to iOS Swift projects to Contributing to open-source projects like try! Swift, my own TDD Network layer and helping in Swift Cairo Community”</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ouy-eV-7q3">
+                                <rect key="frame" x="8" y="244" width="359" height="204.5"/>
+                                <string key="text">“A 20 Year-Old, Jr. iOS Dev., second year at college student with a GitHub profile with over 30 Projects from Backend Vapor to iOS Swift projects to Contributing to open-source projects like try! Swift, my own TDD Network layer and helping in Swift Cairo Community”</string>
                                 <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
                                 <color key="textColor" red="0.42352941179999998" green="0.42745098040000001" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -324,11 +710,89 @@
         <!--Portfolio-->
         <scene sceneID="GMz-9W-cpr">
             <objects>
-                <viewController id="yfB-MO-QnC" sceneMemberID="viewController">
+                <viewController id="yfB-MO-QnC" customClass="PortfolioVC" customModule="iAmAR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sfC-u5-C9h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="600.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="IRB-bD-LAb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="531.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="24" id="scG-kw-b3Z">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kN5-g5-QZp">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="yfB-MO-QnC" id="eCm-Vj-dZX"/>
+                                    <outlet property="delegate" destination="yfB-MO-QnC" id="obQ-Cq-Swm"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RC0-GQ-rHL">
+                                <rect key="frame" x="0.0" y="600.5" width="375" height="250"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Sn-91-glf">
+                                        <rect key="frame" x="20" y="20" width="335" height="210"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <color key="textColor" name="Terinary Color"/>
+                                        <fontDescription key="fontDescription" name="KGCorneroftheSky" family="KG Corner of the Sky" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" name="Primary Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="HLX-qK-K06"/>
+                                    <constraint firstAttribute="bottom" secondItem="9Sn-91-glf" secondAttribute="bottom" constant="20" id="HdL-Vd-DlU"/>
+                                    <constraint firstItem="9Sn-91-glf" firstAttribute="top" secondItem="RC0-GQ-rHL" secondAttribute="top" constant="20" id="TWf-IM-AjD"/>
+                                    <constraint firstAttribute="trailing" secondItem="9Sn-91-glf" secondAttribute="trailing" constant="20" id="XBq-n9-Cph"/>
+                                    <constraint firstItem="9Sn-91-glf" firstAttribute="leading" secondItem="RC0-GQ-rHL" secondAttribute="leading" constant="20" id="Xmb-lw-bMm"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="Terinary Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="2" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RC0-GQ-rHL" secondAttribute="bottom" constant="-250" id="9Rs-cW-TNs"/>
+                            <constraint firstItem="IRB-bD-LAb" firstAttribute="leading" secondItem="qCE-Zc-wtc" secondAttribute="leading" id="Weq-T3-TMD"/>
+                            <constraint firstItem="IRB-bD-LAb" firstAttribute="top" secondItem="qCE-Zc-wtc" secondAttribute="top" id="Y18-E5-Qd8"/>
+                            <constraint firstItem="qCE-Zc-wtc" firstAttribute="bottom" secondItem="IRB-bD-LAb" secondAttribute="bottom" id="gX3-tQ-qPt"/>
+                            <constraint firstItem="qCE-Zc-wtc" firstAttribute="trailing" secondItem="IRB-bD-LAb" secondAttribute="trailing" id="iw9-Nq-8vi"/>
+                            <constraint firstItem="RC0-GQ-rHL" firstAttribute="leading" secondItem="qCE-Zc-wtc" secondAttribute="leading" id="jiJ-pi-0NB"/>
+                            <constraint firstItem="RC0-GQ-rHL" firstAttribute="trailing" secondItem="qCE-Zc-wtc" secondAttribute="trailing" id="zEw-se-GIg"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qCE-Zc-wtc"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Portfolio" image="portfolio" id="mhc-HR-QMH" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
@@ -344,6 +808,11 @@
                             <outlet property="animation" destination="533-5Z-Z69" id="Pei-g1-5Ca"/>
                         </connections>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="detailsTextView" destination="9Sn-91-glf" id="nbt-Up-b1e"/>
+                        <outlet property="detailsView" destination="RC0-GQ-rHL" id="NaZ-7d-WQi"/>
+                        <outlet property="portfolioCollectionView" destination="IRB-bD-LAb" id="ivF-oQ-TF2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBj-8Z-4HF" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="533-5Z-Z69" customClass="RAMFumeAnimation" customModule="RAMAnimatedTabBarController">

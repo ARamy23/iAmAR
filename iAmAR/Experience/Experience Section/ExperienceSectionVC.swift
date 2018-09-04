@@ -43,39 +43,11 @@ class ExperienceSectionVC: UIViewController {
         timelineTableView.register(timelineTableViewCellNib, forCellReuseIdentifier: "TimelineTableViewCell")
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        animateTableViewCells()
-    }
 
 }
 
 extension ExperienceSectionVC: UITableViewDelegate, UITableViewDataSource
 {
-    func animateTableViewCells()
-    {
-        timelineTableView.reloadData()
-        let cells = timelineTableView.visibleCells as! [TimelineTableViewCell]
-//        let tableHeight = timelineTableView.height
-        
-        for cell in cells
-        {
-            cell.transform = CGAffineTransform(scaleX: 0.01, y: 0.01)
-        }
-        
-        var index = 0
-        
-        for cell in cells
-        {
-            UIView.animate(withDuration: 3.0, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: {
-                cell.transform = .identity
-            }, completion: nil)
-            index += 1
-        }
-        
-        
-        
-    }
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return data.count

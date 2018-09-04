@@ -26,6 +26,11 @@
 		E2098C082135CC7E003F5F8B /* KGCorneroftheSky.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2098C062135CC72003F5F8B /* KGCorneroftheSky.ttf */; };
 		E291A18921381CD700934654 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291A18821381CD700934654 /* MainVC.swift */; };
 		E291A18B21381D5F00934654 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291A18A21381D5F00934654 /* MainTabBarController.swift */; };
+		E2A1231B213B19DE00C5E8C4 /* EducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1231A213B19DE00C5E8C4 /* EducationVC.swift */; };
+		E2F1993B213C421700510A90 /* PortfolioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1993A213C421700510A90 /* PortfolioVC.swift */; };
+		E2F1993E213C424200510A90 /* PortfolioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1993C213C424200510A90 /* PortfolioCell.swift */; };
+		E2F1993F213C424200510A90 /* PortfolioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F1993D213C424200510A90 /* PortfolioCell.xib */; };
+		E2F19941213C4BE100510A90 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F19940213C4BE100510A90 /* PinterestLayout.swift */; };
 		F1F313E943F3A2DE6E90BCD6 /* Pods_iAmAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A547CEB7C2E514F5D17B86 /* Pods_iAmAR.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +83,11 @@
 		E2098C062135CC72003F5F8B /* KGCorneroftheSky.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGCorneroftheSky.ttf; sourceTree = "<group>"; };
 		E291A18821381CD700934654 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		E291A18A21381D5F00934654 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E2A1231A213B19DE00C5E8C4 /* EducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVC.swift; sourceTree = "<group>"; };
+		E2F1993A213C421700510A90 /* PortfolioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioVC.swift; sourceTree = "<group>"; };
+		E2F1993C213C424200510A90 /* PortfolioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCell.swift; sourceTree = "<group>"; };
+		E2F1993D213C424200510A90 /* PortfolioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfolioCell.xib; sourceTree = "<group>"; };
+		E2F19940213C4BE100510A90 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +165,8 @@
 			children = (
 				E208B6022139ABF3005F52CB /* ExperienceVC.swift */,
 				E208B6042139B24B005F52CB /* MainPageVC.swift */,
-				E208B6062139DCDF005F52CB /* ExperienceSectionVC.swift */,
+				E2A12318213B19A300C5E8C4 /* Experience Section */,
+				E2A12319213B19C400C5E8C4 /* Education Section */,
 			);
 			path = Experience;
 			sourceTree = "<group>";
@@ -189,6 +200,7 @@
 				E208B5FF2139A16B005F52CB /* Main */,
 				E208B6002139A1AA005F52CB /* About Me */,
 				E208B6012139ABBE005F52CB /* Experience */,
+				E2F19939213C41F600510A90 /* Portfolio */,
 				E2098C042135CC3D003F5F8B /* Support Files */,
 				E2098BD92135CA2D003F5F8B /* Info.plist */,
 			);
@@ -231,6 +243,33 @@
 				E2098C062135CC72003F5F8B /* KGCorneroftheSky.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		E2A12318213B19A300C5E8C4 /* Experience Section */ = {
+			isa = PBXGroup;
+			children = (
+				E208B6062139DCDF005F52CB /* ExperienceSectionVC.swift */,
+			);
+			path = "Experience Section";
+			sourceTree = "<group>";
+		};
+		E2A12319213B19C400C5E8C4 /* Education Section */ = {
+			isa = PBXGroup;
+			children = (
+				E2A1231A213B19DE00C5E8C4 /* EducationVC.swift */,
+			);
+			path = "Education Section";
+			sourceTree = "<group>";
+		};
+		E2F19939213C41F600510A90 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				E2F1993A213C421700510A90 /* PortfolioVC.swift */,
+				E2F1993C213C424200510A90 /* PortfolioCell.swift */,
+				E2F1993D213C424200510A90 /* PortfolioCell.xib */,
+				E2F19940213C4BE100510A90 /* PinterestLayout.swift */,
+			);
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +382,7 @@
 			files = (
 				E2098C072135CC7B003F5F8B /* KGCorneroftheSky.ttf in Resources */,
 				E2098BD82135CA2D003F5F8B /* LaunchScreen.storyboard in Resources */,
+				E2F1993F213C424200510A90 /* PortfolioCell.xib in Resources */,
 				E2098BD52135CA2D003F5F8B /* Assets.xcassets in Resources */,
 				E208B5FC21396B62005F52CB /* AboutMeCell.xib in Resources */,
 				E2098BD32135CA2A003F5F8B /* Main.storyboard in Resources */,
@@ -413,12 +453,14 @@
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/TimelineTableViewCell/TimelineTableViewCell.framework",
+				"${BUILT_PRODUCTS_DIR}/YXWaveView/YXWaveView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TimelineTableViewCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YXWaveView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -454,11 +496,15 @@
 				E208B6072139DCDF005F52CB /* ExperienceSectionVC.swift in Sources */,
 				E208B5FB21396B62005F52CB /* AboutMeCell.swift in Sources */,
 				E208B5F621395340005F52CB /* AnimatorFactory.swift in Sources */,
+				E2F1993E213C424200510A90 /* PortfolioCell.swift in Sources */,
 				E208B5F821396473005F52CB /* AboutMeVC.swift in Sources */,
 				E291A18921381CD700934654 /* MainVC.swift in Sources */,
 				E208B6032139ABF3005F52CB /* ExperienceVC.swift in Sources */,
+				E2F19941213C4BE100510A90 /* PinterestLayout.swift in Sources */,
 				E208B6052139B24B005F52CB /* MainPageVC.swift in Sources */,
 				E291A18B21381D5F00934654 /* MainTabBarController.swift in Sources */,
+				E2F1993B213C421700510A90 /* PortfolioVC.swift in Sources */,
+				E2A1231B213B19DE00C5E8C4 /* EducationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -85,6 +85,7 @@ extension MainPageVC: UIPageViewControllerDataSource, UIPageViewControllerDelega
         return orderedViewControllers[nextIndex]
     }
     
+    
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
         if completed
         {

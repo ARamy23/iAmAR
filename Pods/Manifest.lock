@@ -18,23 +18,27 @@ PODS:
   - SwifterSwift/SwiftStdlib (4.4.0)
   - SwifterSwift/UIKit (4.4.0)
   - TimelineTableViewCell (1.2)
+  - YXWaveView (0.5.0)
 
 DEPENDENCIES:
   - RAMAnimatedTabBarController
   - SwifterSwift
   - TimelineTableViewCell
+  - YXWaveView
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - RAMAnimatedTabBarController
     - SwifterSwift
     - TimelineTableViewCell
+    - YXWaveView
 
 SPEC CHECKSUMS:
   RAMAnimatedTabBarController: 7e259e89b669c7bc833a6441c7d8fbfd6580f473
   SwifterSwift: 1ce0e31801ddd3a2bd3256626275425adb01067a
   TimelineTableViewCell: 71a4bc787bfeb5a85083171d18b113a5f5db2be8
+  YXWaveView: 3570d7244b08effd077a5c63b0693aa44b7cd369
 
-PODFILE CHECKSUM: ae5689a1b112435035bcbc27b615450b506062c4
+PODFILE CHECKSUM: 963ad056861785f3c47bfd7753dec894c0514c3c
 
 COCOAPODS: 1.5.3

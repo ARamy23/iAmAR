@@ -10,6 +10,7 @@ target 'iAmAR' do
 	pod 'RAMAnimatedTabBarController'
 	pod 'SwifterSwift'
 	pod 'TimelineTableViewCell'
+	pod 'YXWaveView'
   target 'iAmARTests' do
     inherit! :search_paths
     # Pods for testing
