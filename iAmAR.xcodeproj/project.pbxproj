@@ -24,6 +24,14 @@
 		E2098BEE2135CA2D003F5F8B /* iAmARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2098BED2135CA2D003F5F8B /* iAmARUITests.swift */; };
 		E2098C072135CC7B003F5F8B /* KGCorneroftheSky.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2098C062135CC72003F5F8B /* KGCorneroftheSky.ttf */; };
 		E2098C082135CC7E003F5F8B /* KGCorneroftheSky.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2098C062135CC72003F5F8B /* KGCorneroftheSky.ttf */; };
+		E23BC079213F17680005A8FD /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BC078213F17670005A8FD /* SplashVC.swift */; };
+		E23BC07E213F17DF0005A8FD /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BC07A213F17DF0005A8FD /* RectangleLayer.swift */; };
+		E23BC07F213F17DF0005A8FD /* OvalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BC07B213F17DF0005A8FD /* OvalLayer.swift */; };
+		E23BC080213F17DF0005A8FD /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BC07C213F17DF0005A8FD /* TriangleLayer.swift */; };
+		E23BC081213F17DF0005A8FD /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BC07D213F17DF0005A8FD /* ArcLayer.swift */; };
+		E23BC083213F18680005A8FD /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BC082213F18680005A8FD /* HolderView.swift */; };
+		E23BC085213F19090005A8FD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23BC084213F19090005A8FD /* Colors.swift */; };
+		E252E40B21401F91007E191E /* RevealAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E252E40A21401F91007E191E /* RevealAnimator.swift */; };
 		E291A18921381CD700934654 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291A18821381CD700934654 /* MainVC.swift */; };
 		E291A18B21381D5F00934654 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E291A18A21381D5F00934654 /* MainTabBarController.swift */; };
 		E2A1231B213B19DE00C5E8C4 /* EducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1231A213B19DE00C5E8C4 /* EducationVC.swift */; };
@@ -81,6 +89,14 @@
 		E2098BED2135CA2D003F5F8B /* iAmARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAmARUITests.swift; sourceTree = "<group>"; };
 		E2098BEF2135CA2D003F5F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2098C062135CC72003F5F8B /* KGCorneroftheSky.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGCorneroftheSky.ttf; sourceTree = "<group>"; };
+		E23BC078213F17670005A8FD /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		E23BC07A213F17DF0005A8FD /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		E23BC07B213F17DF0005A8FD /* OvalLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalLayer.swift; sourceTree = "<group>"; };
+		E23BC07C213F17DF0005A8FD /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		E23BC07D213F17DF0005A8FD /* ArcLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		E23BC082213F18680005A8FD /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		E23BC084213F19090005A8FD /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E252E40A21401F91007E191E /* RevealAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealAnimator.swift; sourceTree = "<group>"; };
 		E291A18821381CD700934654 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		E291A18A21381D5F00934654 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		E2A1231A213B19DE00C5E8C4 /* EducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVC.swift; sourceTree = "<group>"; };
@@ -197,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				E2098BD12135CA2A003F5F8B /* Main.storyboard */,
+				E23BC077213F17450005A8FD /* Splash */,
 				E208B5FF2139A16B005F52CB /* Main */,
 				E208B6002139A1AA005F52CB /* About Me */,
 				E208B6012139ABBE005F52CB /* Experience */,
@@ -243,6 +260,21 @@
 				E2098C062135CC72003F5F8B /* KGCorneroftheSky.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		E23BC077213F17450005A8FD /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E23BC07D213F17DF0005A8FD /* ArcLayer.swift */,
+				E23BC07B213F17DF0005A8FD /* OvalLayer.swift */,
+				E23BC07A213F17DF0005A8FD /* RectangleLayer.swift */,
+				E23BC07C213F17DF0005A8FD /* TriangleLayer.swift */,
+				E23BC084213F19090005A8FD /* Colors.swift */,
+				E23BC082213F18680005A8FD /* HolderView.swift */,
+				E23BC078213F17670005A8FD /* SplashVC.swift */,
+				E252E40A21401F91007E191E /* RevealAnimator.swift */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		E2A12318213B19A300C5E8C4 /* Experience Section */ = {
@@ -492,19 +524,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23BC081213F17DF0005A8FD /* ArcLayer.swift in Sources */,
+				E23BC085213F19090005A8FD /* Colors.swift in Sources */,
 				E2098BCE2135CA2A003F5F8B /* AppDelegate.swift in Sources */,
 				E208B6072139DCDF005F52CB /* ExperienceSectionVC.swift in Sources */,
 				E208B5FB21396B62005F52CB /* AboutMeCell.swift in Sources */,
 				E208B5F621395340005F52CB /* AnimatorFactory.swift in Sources */,
 				E2F1993E213C424200510A90 /* PortfolioCell.swift in Sources */,
 				E208B5F821396473005F52CB /* AboutMeVC.swift in Sources */,
+				E23BC083213F18680005A8FD /* HolderView.swift in Sources */,
 				E291A18921381CD700934654 /* MainVC.swift in Sources */,
 				E208B6032139ABF3005F52CB /* ExperienceVC.swift in Sources */,
+				E252E40B21401F91007E191E /* RevealAnimator.swift in Sources */,
+				E23BC07E213F17DF0005A8FD /* RectangleLayer.swift in Sources */,
+				E23BC07F213F17DF0005A8FD /* OvalLayer.swift in Sources */,
 				E2F19941213C4BE100510A90 /* PinterestLayout.swift in Sources */,
 				E208B6052139B24B005F52CB /* MainPageVC.swift in Sources */,
 				E291A18B21381D5F00934654 /* MainTabBarController.swift in Sources */,
 				E2F1993B213C421700510A90 /* PortfolioVC.swift in Sources */,
 				E2A1231B213B19DE00C5E8C4 /* EducationVC.swift in Sources */,
+				E23BC079213F17680005A8FD /* SplashVC.swift in Sources */,
+				E23BC080213F17DF0005A8FD /* TriangleLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

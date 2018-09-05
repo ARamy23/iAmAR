@@ -39,15 +39,16 @@ class EducationVC: UIViewController {
         waveView.maskWaveColor = #colorLiteral(red: 0.8820000291, green: 0.7250000238, blue: 0.8389999866, alpha: 1)
         waveView.waveHeight = 40
         waveView.waveCurvature = 1.2
-        waveView.frame.size.width = waveContainerView.width * 2
+        waveView.frame.size.width = waveContainerView.width
         waveContainerView.addSubview(waveView)
         
-        let label = UILabel(text: "That's all Folks!     ")
-        label.font = UIFont(name: "KGCorneroftheSky", size: 17)
-        label.textColor = UIColor.blue
+        let label = UILabel(text: "That's all Folks...")
+        label.font = UIFont(name: "KGCorneroftheSky", size: 23)
+        label.textColor = UIColor.black
         label.layer.masksToBounds = true
-        label.frame = CGRect(x: -waveView.width, y: 0, width: 200, height: 44)
+        label.frame = CGRect(x: 0, y: 0, width: 200, height: 44)
         waveView.addOverView(label)
+        waveView.overView!.center.x = view.center.x
     }
     
     override func viewWillAppear(_ animated: Bool) {
